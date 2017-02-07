@@ -2,21 +2,20 @@
 layout: default
 ---
 
+
+
 <div class="home">
 
   <h1>Touchdown Dance</h1>
 
   {{ content }}
 
-  <!-- <script>
-    FB.api(
-      '/touchdowndance/events/',
-      'GET',
-      {},
-      function(response) {
-        console.log(response);
-      }
-    );
-  </script> -->
+
+  <h2>Upcoming Events</h2>
+
+  <div class="events"></div>
 
 </div>
+
+
+<script src="{{ site.baseurl }}/assets/facebook.js"></script>
