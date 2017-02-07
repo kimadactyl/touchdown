@@ -22,7 +22,7 @@ twitter_username: DanceTouchdown
 
 # Build settings
 markdown: kramdown
-theme: minima
+destination: docs
 gems:
   - jekyll-feed
 collections:
