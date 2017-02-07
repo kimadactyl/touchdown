@@ -28,7 +28,7 @@ gems:
 collections:
   productions:
     output: true
-    permalink: /productions/:path/
+    permalink: /productions/:title/
   courses:
     output: true
     permalink: /courses/:path/

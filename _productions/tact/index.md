@@ -3,6 +3,7 @@ title: Tact
 tagline: A theatrical dance performance involving text, video projection and movement ranging from the energetic and resistant to the softer almost motionless sensitivity.
 start: 2002
 finish: 2003
+permalink: /productions/tact/
 ---
 
 TACT is a theatrical dance performance involving text, video projection and movement ranging from the energetic and resistant to the softer almost motionless sensitivity. Using Contact Improvisation, simultaneous description, stories, and textured layers of video and live music, this is a groundbreaking piece of work. Six dancers, three visually impaired and three sighted, with two live musicians, create a rich spectacle involving strong individual and personal moments along with a sense of group interaction that is intimate and persuasive. Touchdown strive to challenge the art form, Dance, to stretch your perceptions and held assumptions and to celebrate the creative potential of integrated practice.

@@ -8,12 +8,14 @@ layout: default
 
   {{ content }}
 
+  <h2>Our Productions</h2>
+
   <ul class="post-list">
     {% for production in site.productions %}
       <li>
-        <h2>
+        <h3>
           <a href="{{ production.url | relative_url }}">{{ production.title | escape }}</a>
-        </h2>
+        </h3>
         <p>{{ production.tagline }}</p>
         <time>{{ production.start }} &mdash; {{ production.finish }}</time>
       </li>
