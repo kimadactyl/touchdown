@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+<div class="home">
+
+  <h1>Productions</h1>
+
+  {{ content }}
+
+  <ul class="post-list">
+    {% for production in site.productions %}
+      <li>
+        <h2>
+          <a href="{{ production.url | relative_url }}">{{ production.title | escape }}</a>
+        </h2>
+        <p>{{ production.tagline }}</p>
+        <time>{{ production.start }} &mdash; {{ production.finish }}</time>
+      </li>
+    {% endfor %}
+  </ul>
+
+</div>

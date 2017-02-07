@@ -25,6 +25,19 @@ markdown: kramdown
 theme: minima
 gems:
   - jekyll-feed
+collections:
+  productions:
+    output: true
+    permalink: /productions/:path/
+  courses:
+    output: true
+    permalink: /courses/:path/
+defaults:
+  -
+    scope:
+      type: "productions"
+    values:
+      layout: "production"
 exclude:
   - Gemfile
   - Gemfile.lock
