@@ -12,18 +12,22 @@ window.fbAsyncInit = function() {
       access_token: "587228301483312|JxoFGvGJGnvSe6kXlgfChkP_sDw"
     },
     function(response) {
-      var html = "";
-      events = response.data;
+
+      var events = response.data;
+
       events.sort(function(a, b){
         return Date.parse(a.start_time) - Date.parse(b.start_time);
       });
-      $.each(events, function(i, val) {
+
+      html = events.reduce(function(html, val){
         if(Date.parse(val.start_time) > Date.now()) {
           html += "<h3>" + val.name + "</h3>\n";
           html += "<time>" + val.start_time + " &mdash; " + val.end_time + "</time>\n";
           html += "<p>" + val.description + "</p>\n";
         }
-      })
+        return html;
+      }, "");
+
       $('.events').html(html);
     }
   );
