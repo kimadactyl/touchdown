@@ -22,7 +22,13 @@ window.fbAsyncInit = function() {
       html = events.reduce(function(html, val){
         if(Date.parse(val.start_time) > Date.now()) {
           html += "<h3>" + val.name + "</h3>\n";
-          html += "<time>" + val.start_time + " &mdash; " + val.end_time + "</time>\n";
+          html += "<time>";
+          html += moment(val.start_time).format("MMMM Do YYYY, h:mma") + " &mdash; ";
+          if (moment(val.start_time).format("DD-MM-YY") == moment(val.end_time).format("DD-MM-YY")) {
+            html += moment(val.end_time).format("h:mma") + "</time>\n";
+          } else {
+            html += moment(val.end_time).format("MMMM Do h:mma") + "</time>\n";
+          }
           html += "<p>" + val.description + "</p>\n";
         }
         return html;
