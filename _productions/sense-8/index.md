@@ -6,6 +6,8 @@ finish: 2002
 permalink: /productions/sense-8/
 ---
 
+A moving image production experimenting with light/dark/colour to capture the moving bodies, with integrated audio description and amplified sound of the movement, for VI audiences, multiple camera use including CCTV, hand held and dolly.
+
 Film funded by a Capture Award from the Arts Council of England. Co-produced by Katy Dymoke and Katrina McPherson (G0 AT productions) for Touchdown Dance.
 
 ### Location

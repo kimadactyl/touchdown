@@ -12,4 +12,6 @@ Closer was devised by the company with Julyen Hamilton and Angus Balbernie. Clos
 
 Closer has original music scores by Scott Smith with some concrete sounds from Angus Balbernie. There is a pre-show video by Becky Edmunds with a personal statement from each dancer whilst in rehearsals, and short atmospheric video clips for the show itself. Lighting design by Alan Jackson, costume design by Alke and tour management by Ed Higginson. Dancers; Katy Dymoke, Robert Andersen, Janee Hall, Holly Thomas, Patrick Beelaert and Stuart Jackson.
 
-Audio Description. We have ensured that Closer is audio described and we require that each venue provide this service, however it is up to the venue to cover the additional costs.
+Closer is audio described.
+
+The show toured: Nuffield Theatre Lancaster; Swindon Dance; Sadlers Wells, residency with Whitefield School; Castle Wellingborough; City Moves, Aberdeen; and Dancehouse, Glasgow.
