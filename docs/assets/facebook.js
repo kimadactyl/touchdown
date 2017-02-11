@@ -19,7 +19,7 @@ window.fbAsyncInit = function() {
         return Date.parse(a.start_time) - Date.parse(b.start_time);
       });
 
-      html = events.reduce(function(html, val){
+      var html = events.reduce(function(html, val){
         if(Date.parse(val.start_time) > Date.now()) {
           html += "<h3>" + val.name + "</h3>\n";
           html += "<p><time>";
@@ -33,7 +33,7 @@ window.fbAsyncInit = function() {
         }
         return html;
       }, "");
-
+      
       $('.events').html(html);
     }
   );
