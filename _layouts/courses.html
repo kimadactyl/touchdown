@@ -16,11 +16,11 @@ layout: default
       <li>
         <h3>
           {% if course.full_page %}
-            <a href="{{ course.url | relative_url }}">{{ course.title | escape }},</a>
+            <a href="{{ course.url | relative_url }}">{{ course.title | escape }}</a>
           {% else %}
-            {{ course.title | escape }},
+            {{ course.title | escape }}
           {% endif %}
-          <time>{{ course.start }}{% if course.finish %} &ndash; {{ course.finish }}{% endif %}</time>
+          <small><time>({{ course.start }}{% if course.finish %} &ndash; {{ course.finish }}{% endif %})</time></small>
         </h3>
         {% if course.full_page %}
           {{ course.excerpt }}
