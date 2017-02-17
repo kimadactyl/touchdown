@@ -29,11 +29,11 @@ window.fbAsyncInit = function() {
           } else {
             html += moment(val.end_time).format("MMMM Do h:mma") + "</time></p>\n";
           }
-          html += "<p>" + val.description + "</p>\n";
+          html += "<p class='respect-line-breaks'>" + val.description + "</p>\n";
         }
         return html;
       }, "");
-      
+
       $('.events').html(html);
     }
   );

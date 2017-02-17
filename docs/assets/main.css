@@ -450,3 +450,6 @@ pre {
     color: #008080; }
   .highlight .il {
     color: #099; }
+
+.respect-line-breaks {
+  white-space: pre-line; }
