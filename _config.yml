@@ -31,13 +31,18 @@ collections:
     permalink: /productions/:title/
   courses:
     output: true
-    permalink: /courses/:path/
+    permalink: /courses/:title/
 defaults:
   -
     scope:
       type: "productions"
     values:
       layout: "production"
+  -
+    scope:
+      type: "courses"
+    values:
+      layout: "course"
 exclude:
   - Gemfile
   - Gemfile.lock
