@@ -1,5 +1,5 @@
 ---
-title: Look UK &amp; Brussels
+title: Look UK & Brussels
 start: 2015
 ---
 

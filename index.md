@@ -9,7 +9,7 @@ layout: home
 
 Touchdown Dance brings together people of all ages and abilities in a pleasurable, free-flowing dance partnership called contact improvisation.
 
-## Performances
+## Productions
 
 As a dance company we tour our innovative productions all over the world. Something really good here about what kinds of things they are.
 

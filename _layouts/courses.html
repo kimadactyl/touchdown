@@ -8,16 +8,28 @@ layout: default
 
   {{ content }}
 
-  <h2>Our Courses</h2>
+  <h2>Course History</h2>
 
   <ul class="post-list">
-    {% for course in site.courses reversed %}
+    {% assign courses = site.courses | sort: 'start' %}
+    {% for course in courses reversed %}
       <li>
         <h3>
-          <a href="{{ course.url | relative_url }}">{{ course.title | escape }}</a>
+          {% if course.full_page %}
+            <a href="{{ course.url | relative_url }}">{{ course.title | escape }},</a>
+          {% else %}
+            {{ course.title | escape }},
+          {% endif %}
+          <time>{{ course.start }}{% if course.finish %} &ndash; {{ course.finish }}{% endif %}</time>
         </h3>
-        <time>{{ course.start }} &mdash; {{ course.finish }}</time>
-        {{ course.excerpt }}
+        {% if course.full_page %}
+          {{ course.excerpt }}
+        {% else %}
+         {{ course.content }}
+       {% endif %}
+       {% if course.full_page %}
+          <a class="btn" href="{{ course.url | relative_url }}">Read more &hellip;</a>
+       {% endif %}
       </li>
     {% endfor %}
   </ul>

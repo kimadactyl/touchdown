@@ -14,11 +14,11 @@
       </span>
 
       <div class="trigger">
-        {% for my_page in site.pages %}
-          {% if my_page.title %}
-          <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
-          {% endif %}
-        {% endfor %}
+        <a class="page-link" href="{{ site.baseurl }}/productions/">Productions</a>
+        <a class="page-link" href="{{ site.baseurl }}/courses/">Courses</a>
+        <a class="page-link" href="{{ site.baseurl }}/philosophy/">Philosophy</a>
+        <a class="page-link" href="{{ site.baseurl }}/history/">History</a>
+        <a class="page-link" href="{{ site.baseurl }}/contact/">Contact</a>
       </div>
     </nav>
 

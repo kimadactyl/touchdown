@@ -11,13 +11,14 @@ layout: default
   <h2>Our Productions</h2>
 
   <ul class="post-list">
-    {% for production in site.productions %}
+    {% assign productions = site.productions | sort: 'start' %}
+    {% for production in productions reversed %}
       <li>
         <h3>
           <a href="{{ production.url | relative_url }}">{{ production.title | escape }}</a>
+          <small><time>({{ production.start }}{% if production.finish %}  &mdash; {{ production.finish }}{% endif %})</time></small>
         </h3>
         <p>{{ production.tagline }}</p>
-        <time>{{ production.start }} &mdash; {{ production.finish }}</time>
       </li>
     {% endfor %}
   </ul>

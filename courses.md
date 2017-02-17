@@ -1,6 +1,7 @@
 ---
 layout: courses
 title: Courses
+permalink: /courses/
 ---
 
 > "I enjoyed using senses other than sight to guide my body through the movement."
