@@ -8,8 +8,6 @@ layout: default
 
   {{ content }}
 
-  <h2>Past Productions</h2>
-
   <ul class="post-list">
     {% assign productions = site.productions | sort: 'start' %}
     {% for production in productions reversed %}
