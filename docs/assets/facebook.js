@@ -14,7 +14,7 @@ window.fbAsyncInit = function() {
     function(response) {
 
       var events = response.data;
-
+      
       events.sort(function(a, b){
         return Date.parse(a.start_time) - Date.parse(b.start_time);
       });

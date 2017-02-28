@@ -6,6 +6,9 @@ permalink: /productions/
 
 > "The dancers work as a team, guiding, supporting and inspiring each other."
 
+<!-- TODO: katy to find the promo line for this -->
+Touchdown Dance Company does something nice
+
 ## Current Production
 
 Even if there are no current productions I’d suggest we keep this area so people know there will be some in the future (if that is the case).
