@@ -21,8 +21,8 @@ We deliver world-class workshops based on contact improvisation for people with 
 
 [Find out more about our courses and workshops]({{ site.baseurl }}/courses/)
 
-## History
+## Philosophy & History
 
 Touchdown was founded by Steve Paxton and Anne Kilcoyne in 1986 at Dartington College of Arts and was moved to the North West when Katy Dymoke took over in 1994. We have over thirty years of experience and practice to learn from.
 
-[Read more about our history]({{ site.baseurl }}/history/)
+[Read more about our practice and history]({{ site.baseurl }}/philosophy/)
