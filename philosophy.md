@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Philosophy
+title: Philosophy and history
 permalink: /philosophy/
 ---
 
@@ -22,7 +22,7 @@ Link to education guide (on GitBooks)
 
 Intro
 
-### 1986. Start with RNIB
+### 1986 Start with RNIB
 
 Adults
 Steve Paxton etc
