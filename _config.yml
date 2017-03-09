@@ -19,7 +19,8 @@ description: "Touchdown Dance brings together people of all ages and abilities i
 baseurl: "/touchdown" # the subpath of your site, e.g. /blog
 url: "https://kimadactyl.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: DanceTouchdown
-
+sass:
+  style: compressed
 # Build settings
 markdown: kramdown
 destination: docs
