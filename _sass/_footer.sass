@@ -1,0 +1,27 @@
+.social
+  li
+    display: inline-block
+    margin-right: 1em
+  &__wrapper
+    border-bottom: none
+    text-align: center
+  &__image
+    width: 5em
+    height: 5em
+    background-repeat: no-repeat
+    background-size: cover
+    display: inline-block
+    rect
+      fill: $background
+    path
+      fill: $primary
+    &:hover
+      rect
+        fill: $copy
+      path
+        fill: $background
+    &--rss
+      circle
+        fill: $primary
+      &:hover circle
+        fill: $background

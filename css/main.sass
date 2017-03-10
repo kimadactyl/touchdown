@@ -3,13 +3,15 @@
 
 // Define defaults for each variable.
 
-$text-color:       #111 !default
-$background-color: #fdfdfd !default
-$brand-color:      #2a7ae2 !default
+$primary: #EA516D
+$background: white
+$copy: black
 
-$grey-color:       #828282 !default
-$grey-color-light: lighten($grey-color, 40%) !default
-$grey-color-dark:  darken($grey-color, 25%) !default
+$alt-primary: #980C6B
+
+$font-demi:     "CartographSansCF-DemiBold", Helvetica, Arial, sans-serif
+$font-regular:  "CartographSansCF-Regular", Helvetica, Arial, sans-serif
+$font-bold:     "CartographSansCF-Bold", Helvetica, Arial, sans-serif
 
 // Width of the content area
 $content-width:    800px !default
@@ -17,12 +19,18 @@ $content-width:    800px !default
 $on-palm:          600px !default
 $on-laptop:        800px !default
 
+
+// Spacing around left and right
+$gutter: 1.5rem
+
 @import "_colours"
 @import "_typography"
 
 @import "_base"
 @import "_buttons"
 @import "_layout"
+@import "_navigation"
+@import "_footer"
 
 @import "vendor/cartograph-sans-cf"
 @import "vendor/cartograph-sans-cf-bold"

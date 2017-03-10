@@ -1,12 +1,12 @@
 body
-  font-family: "CartographSansCF-DemiBold", Helvetica, Arial, sans-serif
+  font-family: $font-demi
   line-height: 1.5
 
 h1, h2, h3, h4, h5, h6
   color: $primary
 
 h1, h2
-  font-family: "CartographSansCF-Bold", Helvetica, Arial, sans-serif
+  font-family: $font-bold
 
 // Large titles
 h1
@@ -23,14 +23,32 @@ h3
   font-size: 1.5rem
   line-height: 2
 
-nav
-  font-size: 1.25rem
+.light
+  font-family: $font-regular
   line-height: 1.5
 
-.light
-  font-family: "CartographSansCF-Regular", Helvetica, Arial, sans-serif
-  line-height: 2
-
-.footer
+.small
   font-size: 0.75rem
   line-height: 1.666666667
+
+a
+  padding-bottom: 0.1em
+  text-decoration: none
+  border-bottom: 2px solid
+  color: $primary
+  &:hover
+    color: $copy
+
+.small a, .light a, a.small, a.light
+  border-bottom-width: 1px
+
+.t-2 a
+  color: $background
+  &:hover
+    color: $copy
+
+.t-3 a
+  color: $background
+  &:hover
+    color: $background
+    border-color: $primary
