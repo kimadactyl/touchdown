@@ -14,7 +14,7 @@ window.fbAsyncInit = function() {
     function(response) {
 
       var events = response.data;
-      
+
       events.sort(function(a, b){
         return Date.parse(a.start_time) - Date.parse(b.start_time);
       });
@@ -29,7 +29,7 @@ window.fbAsyncInit = function() {
           } else {
             html += moment(val.end_time).format("MMMM Do h:mma") + "</time></p>\n";
           }
-          html += "<p class='respect-line-breaks'>" + val.description + "</p>\n";
+          // html += "<p class='respect-line-breaks'>" + val.description + "</p>\n";
         }
         return html;
       }, "");

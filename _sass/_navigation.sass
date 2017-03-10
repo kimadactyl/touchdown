@@ -1,0 +1,47 @@
+.nav
+  &__toggle
+    background-color: $copy
+    color: $background
+    margin-left: -$gutter
+    margin-right: -$gutter
+    padding: 0.5rem $gutter
+    display: block
+    border-bottom: none
+    cursor: pointer
+    svg
+      width: 1em
+      height: 1.5em
+      fill: $background
+    &:hover
+      border-bottom: none
+  &__label
+    text-transform: uppercase
+    display: inline-block
+    vertical-align: top
+    padding-left: 0.5em
+  &__menu
+    margin-top: 1rem
+    font-size: 1.5rem
+    line-height: 2
+    font-family: $font-demi
+    // Desktop
+    // font-size: 1.25rem
+    //line-height: 1.5
+    li
+      border-bottom: 2px solid $primary
+      &:hover
+        background-color: $primary
+        a
+          color: $background
+    li.nav__item--last
+      border-bottom: none
+
+    a
+      border-bottom: none
+      padding-left: $gutter
+      display: inline-block
+      width: 100%
+
+
+a:hover .nav__label
+  color: $background

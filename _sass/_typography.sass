@@ -1,0 +1,54 @@
+body
+  font-family: $font-demi
+  line-height: 1.5
+
+h1, h2, h3, h4, h5, h6
+  color: $primary
+
+h1, h2
+  font-family: $font-bold
+
+// Large titles
+h1
+  font-size: 2.5rem
+  line-height: 1.2
+
+// Regular titles
+h2
+  font-size: 2rem
+  line-height: 1
+
+// Intro statements
+h3
+  font-size: 1.5rem
+  line-height: 2
+
+.light
+  font-family: $font-regular
+  line-height: 1.5
+
+.small
+  font-size: 0.75rem
+  line-height: 1.666666667
+
+a
+  padding-bottom: 0.1em
+  text-decoration: none
+  border-bottom: 2px solid
+  color: $primary
+  &:hover
+    color: $copy
+
+.small a, .light a, a.small, a.light
+  border-bottom-width: 1px
+
+.t-2 a
+  color: $background
+  &:hover
+    color: $copy
+
+.t-3 a
+  color: $background
+  &:hover
+    color: $background
+    border-color: $primary
