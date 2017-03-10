@@ -1,35 +1,48 @@
 body
   font-family: $font-demi
-  line-height: 1.5
-
-h1, h2, h3, h4, h5, h6
-  color: $primary
+  line-height: 1.25
+  +for-desktop-up
+    line-height: 1.5
 
 h1, h2
   font-family: $font-bold
 
 // Large titles
 h1
-  font-size: 2.5rem
-  line-height: 1.2
+  font-size: 1.75rem
+  line-height: 1.25
+  +for-tablet-portrait-up
+    font-size: 2.5rem
+    line-height: 1.2
 
 // Regular titles
 h2
-  font-size: 2rem
+  font-size: 1.25rem
   line-height: 1
+  +for-tablet-portrait-up
+    font-size: 1.5rem
+  +for-desktop-up
+    font-size: 2rem
 
 // Intro statements
 h3
-  font-size: 1.5rem
-  line-height: 2
+  font-size: 1rem
+  line-height: 1.25
+  +for-desktop-up
+    font-size: 1.5rem
+    line-height: 1.33333333
 
+// Lighter text
 .light
   font-family: $font-regular
-  line-height: 1.5
 
+// Smaller text
 .small
   font-size: 0.75rem
   line-height: 1.666666667
+
+h1, h2, h3, h4, h5, h6
+  color: $primary
 
 a
   padding-bottom: 0.1em
