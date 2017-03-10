@@ -60,17 +60,17 @@ Morbi non nibh vitae lacus convallis rhoncus a eu nisi. Duis ac tempor nulla, ac
 
 <div class="grid grid--4">
   <div class="grid__item">
-    <h4>Angus Balbernie and Stuart Jackson 343 m/s</h4>
+    <h3>Angus Balbernie and Stuart Jackson 343 m/s</h3>
     <p>April 5th 2017, Glasgow</p>
     <a href="" class="btn btn--alt">More info</a> <a href="" class="btn">Book Now</a>
   </div>
   <div class="grid__item">
-    <h4>Weekend Workshop</h4>
+    <h3>Weekend Workshop</h3>
     <p>April 9th - 10th 2017, Bath</p>
     <a href="" class="btn btn--alt">More info</a> <a href="" class="btn">Book Now</a>
   </div>
   <div class="grid__item">
-    <h4>Apparently Normal</h4>
+    <h3>Apparently Normal</h3>
     <p>April 11th 2010, Manchester</p>
     <a href="" class="btn btn--alt">More info</a> <a href="" class="btn">Book Now</a>
   </div>
