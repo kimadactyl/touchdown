@@ -29,17 +29,17 @@ Morbi non nibh vitae lacus convallis rhoncus a eu nisi. Duis ac tempor nulla, ac
 
 <div class="row">
   <a class="btn" href="#">Main button</a>
-  <a class="btn btn__alt" href="#">Alt button</a>
+  <a class="btn btn--alt" href="#">Alt button</a>
 </div>
 
 <div class="row t-2">
   <a class="btn" href="#">Main button</a>
-  <a class="btn btn__alt" href="#">Alt button</a>
+  <a class="btn btn--alt" href="#">Alt button</a>
 </div>
 
 <div class="row t-3">
   <a class="btn" href="#">Main button</a>
-  <a class="btn btn__alt" href="#">Alt button</a>
+  <a class="btn btn--alt" href="#">Alt button</a>
 </div>
 
 ## Links
@@ -54,4 +54,81 @@ Morbi non nibh vitae lacus convallis rhoncus a eu nisi. Duis ac tempor nulla, ac
 
 <div class="row t-3">
   <a href="#">Normal link</a>, <span class="light"><a href="#">Light link</a></span>, <span class="small"><a href="#">Footer link</a></span>
+</div>
+
+## Grids
+
+<div class="grid grid--4">
+  <div class="grid__item">
+    <h4>Angus Balbernie and Stuart Jackson 343 m/s</h4>
+    <p>April 5th 2017, Glasgow</p>
+    <a href="" class="btn btn--alt">More info</a> <a href="" class="btn">Book Now</a>
+  </div>
+  <div class="grid__item">
+    <h4>Weekend Workshop</h4>
+    <p>April 9th - 10th 2017, Bath</p>
+    <a href="" class="btn btn--alt">More info</a> <a href="" class="btn">Book Now</a>
+  </div>
+  <div class="grid__item">
+    <h4>Apparently Normal</h4>
+    <p>April 11th 2010, Manchester</p>
+    <a href="" class="btn btn--alt">More info</a> <a href="" class="btn">Book Now</a>
+  </div>
+  <div class="grid__item">
+    4-up grid
+  </div>
+  <div class="grid__item">
+    4-up grid
+  </div>
+  <div class="grid__item">
+    4-up grid
+  </div>
+  <div class="grid__item">
+    4-up grid
+  </div>
+  <div class="grid__item">
+    4-up grid
+  </div>
+  <div class="grid__item">
+    4-up grid
+  </div>
+  <div class="grid__item">
+    4-up grid
+  </div>
+  <div class="grid__item">
+    4-up grid
+  </div>
+  <div class="grid__item">
+    4-up grid
+  </div>
+</div>
+
+<div class="grid grid--3">
+  <div class="grid__item">
+    3-up grid
+  </div>
+  <div class="grid__item">
+    3-up grid
+  </div>
+  <div class="grid__item">
+    3-up grid
+  </div>
+  <div class="grid__item">
+    3-up grid
+  </div>
+  <div class="grid__item">
+    3-up grid
+  </div>
+  <div class="grid__item">
+    3-up grid
+  </div>
+  <div class="grid__item">
+    3-up grid
+  </div>
+  <div class="grid__item">
+    3-up grid
+  </div>
+  <div class="grid__item">
+    3-up grid
+  </div>
 </div>

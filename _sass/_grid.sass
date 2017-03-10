@@ -1,0 +1,8 @@
+$susy: ( columns: 4, gutters: 1/16, math: fluid, output: float, gutter-position: inside )
+
+.grid
+  @include container
+  &--4 &__item
+    @include span(1 of 4)
+  &--3 &__item
+    @include span(1 of 3)
