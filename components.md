@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Large title (h1)
-permalink: /_components/
+permalink: /components/
 ---
 
 Body copy: general use. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed imperdiet mauris commodo suscipit pretium. Quisque cursus magna id velit ultricies, non finibus neque varius. Duis scelerisque dui fringilla, accumsan magna pellentesque, euismod enim. Maecenas id orci ante. Aliquam iaculis, orci ac scelerisque convallis, risus mauris fringilla mi, ac dapibus dolor sem et nunc.
