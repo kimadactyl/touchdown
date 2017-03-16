@@ -58,77 +58,166 @@ Morbi non nibh vitae lacus convallis rhoncus a eu nisi. Duis ac tempor nulla, ac
 
 ## Grids
 
-<div class="grid grid--4">
+<div class="grid grid--event">
   <div class="grid__item">
-    <h3>Angus Balbernie and Stuart Jackson 343 m/s</h3>
-    <p>April 5th 2017, Glasgow</p>
-    <a href="" class="btn btn--alt">More info</a> <a href="" class="btn">Book Now</a>
+    <div class="event__wrapper">
+      <div class="event__info">
+        <h3>Angus Balbernie and Stuart Jackson 343 m/s</h3>
+        <p>April 5th 2017, Glasgow</p>
+      </div>
+      <div class="event__more">
+        <a href="#" class="btn btn--alt">More info</a>
+      </div>
+      <div class="event__book">
+        <a href="#" class="btn">Book Now</a>
+      </div>
+    </div>
   </div>
   <div class="grid__item">
-    <h3>Weekend Workshop</h3>
-    <p>April 9th - 10th 2017, Bath</p>
-    <a href="" class="btn btn--alt">More info</a> <a href="" class="btn">Book Now</a>
+    <div class="event__info">
+      <h3>Weekend Workshop</h3>
+      <p>April 9th - 10th 2017, Bath</p>
+    </div>
+    <div class="event__more">
+      <a href="#" class="btn btn--alt">More info</a>
+    </div>
+    <div class="event__book">
+      <a href="#" class="btn">Book Now</a>
+    </div>
   </div>
   <div class="grid__item">
-    <h3>Apparently Normal</h3>
-    <p>April 11th 2010, Manchester</p>
-    <a href="" class="btn btn--alt">More info</a> <a href="" class="btn">Book Now</a>
+    <div class="event__info">
+      <h3>Apparently Normal</h3>
+      <p>April 11th 2010, Manchester</p>
+    </div>
+    <div class="event__more">
+      <a href="#" class="btn btn--alt">More info</a>
+    </div>
+    <div class="event__book">
+      <a href="#" class="btn">Book Now</a>
+    </div>
   </div>
   <div class="grid__item">
-    4-up grid
+    <div class="event__info">
+      <h3>Angus Balbernie and Stuart Jackson 343 m/s</h3>
+      <p>April 5th 2017, Glasgow</p>
+    </div>
+    <div class="event__more">
+      <a href="#" class="btn btn--alt">More info</a>
+    </div>
+    <div class="event__book">
+      <a href="#" class="btn">Book Now</a>
+    </div>
   </div>
   <div class="grid__item">
-    4-up grid
+    <div class="event__info">
+      <h3>Weekend Workshop</h3>
+      <p>April 9th - 10th 2017, Bath</p>
+    </div>
+    <div class="event__more">
+      <a href="#" class="btn btn--alt">More info</a>
+    </div>
+    <div class="event__book">
+      <a href="#" class="btn">Book Now</a>
+    </div>
   </div>
   <div class="grid__item">
-    4-up grid
+    <div class="event__info">
+      <h3>Apparently Normal</h3>
+      <p>April 11th 2010, Manchester</p>
+    </div>
+    <div class="event__more">
+      <a href="#" class="btn btn--alt">More info</a>
+    </div>
+    <div class="event__book">
+      <a href="#" class="btn">Book Now</a>
+    </div>
   </div>
   <div class="grid__item">
-    4-up grid
+    <div class="event__info">
+      <h3>Angus Balbernie and Stuart Jackson 343 m/s</h3>
+      <p>April 5th 2017, Glasgow</p>
+    </div>
+    <div class="event__more">
+      <a href="#" class="btn btn--alt">More info</a>
+    </div>
+    <div class="event__book">
+      <a href="#" class="btn">Book Now</a>
+    </div>
   </div>
   <div class="grid__item">
-    4-up grid
+    <div class="event__info">
+      <h3>Weekend Workshop</h3>
+      <p>April 9th - 10th 2017, Bath</p>
+    </div>
+    <div class="event__more">
+      <a href="#" class="btn btn--alt">More info</a>
+    </div>
+    <div class="event__book">
+      <a href="#" class="btn">Book Now</a>
+    </div>
   </div>
   <div class="grid__item">
-    4-up grid
-  </div>
-  <div class="grid__item">
-    4-up grid
-  </div>
-  <div class="grid__item">
-    4-up grid
-  </div>
-  <div class="grid__item">
-    4-up grid
+    <div class="event__info">
+      <h3>Apparently Normal</h3>
+      <p>April 11th 2010, Manchester</p>
+    </div>
+    <div class="event__more">
+      <a href="#" class="btn btn--alt">More info</a>
+    </div>
+    <div class="event__book">
+      <a href="#" class="btn">Book Now</a>
+    </div>
   </div>
 </div>
 
 <div class="grid grid--3">
   <div class="grid__item">
-    3-up grid
+    <h3>Our productions</h3>
+    <img src="http://placehold.it/350x200">
+    <p>We work with everyone from disability organisations to mainstream dance theatre companies, presenting at conferences with the British Council, and performing at festivals and events locally, regionally, nationally and internationally</p>
+    <a href="#" class="btn">Discover more</a>
   </div>
   <div class="grid__item">
-    3-up grid
+    <h3>Work with us</h3>
+    <img src="http://placehold.it/350x200">
+    <p>We deliver world-class workshops based on contract improvisation, movement and somatic practices for visually impaired, deaf and disabled people all over the world. We can create bespoke workshops for groups in arts organisations, care centres, health and education settings.</p>
+    <a href="#" class="btn">Discover more</a>
   </div>
   <div class="grid__item">
-    3-up grid
+    <h3>Who we are</h3>
+    <img src="http://placehold.it/350x200">
+    <p>We work with everyone from disability organisations to mainstream dance theatre companies, presenting at conferences with the British Council, and performing at festivals and events locally, regionally, nationally and internationally</p>
+    <a href="#" class="btn">Discover more</a>
   </div>
   <div class="grid__item">
-    3-up grid
+    <h3>Our productions</h3>
+    <img src="http://placehold.it/350x200">
+    <p>We work with everyone from disability organisations to mainstream dance theatre companies, presenting at conferences with the British Council, and performing at festivals and events locally, regionally, nationally and internationally</p>
+    <a href="#" class="btn">Discover more</a>
   </div>
   <div class="grid__item">
-    3-up grid
+    <h3>Work with us</h3>
+    <img src="http://placehold.it/350x200">
+    <p>We deliver world-class workshops based on contract improvisation, movement and somatic practices for visually impaired, deaf and disabled people all over the world. We can create bespoke workshops for groups in arts organisations, care centres, health and education settings.</p>
+    <a href="#" class="btn">Discover more</a>
   </div>
   <div class="grid__item">
-    3-up grid
+    <h3>Who we are</h3>
+    <img src="http://placehold.it/350x200">
+    <p>We work with everyone from disability organisations to mainstream dance theatre companies, presenting at conferences with the British Council, and performing at festivals and events locally, regionally, nationally and internationally</p>
+    <a href="#" class="btn">Discover more</a>
   </div>
   <div class="grid__item">
-    3-up grid
+    <h3>Our productions</h3>
+    <img src="http://placehold.it/350x200">
+    <p>We work with everyone from disability organisations to mainstream dance theatre companies, presenting at conferences with the British Council, and performing at festivals and events locally, regionally, nationally and internationally</p>
+    <a href="#" class="btn">Discover more</a>
   </div>
   <div class="grid__item">
-    3-up grid
-  </div>
-  <div class="grid__item">
-    3-up grid
+    <h3>Work with us</h3>
+    <img src="http://placehold.it/350x200">
+    <p>We deliver world-class workshops based on contract improvisation, movement and somatic practices for visually impaired, deaf and disabled people all over the world. We can create bespoke workshops for groups in arts organisations, care centres, health and education settings.</p>
+    <a href="#" class="btn">Discover more</a>
   </div>
 </div>

@@ -1,8 +1,51 @@
-$susy: ( columns: 4, gutters: 1/16, math: fluid, output: float, gutter-position: inside )
+$susy: ( gutters: 1/16, math: fluid, output: float, gutter-position: after )
 
 .grid
   @include container
-  &--4 &__item
-    @include span(1 of 4)
-  &--3 &__item
-    @include span(1 of 3)
+  margin-bottom: 1rem
+  &__item
+    img
+      max-width: 100%
+      margin: 0 auto
+      display: block
+    .btn
+      display: block
+      text-align: center
+
+  // 3-up content row
+  &--3
+    @include layout($susy columns 3)
+    +for-tablet-portrait-up
+      .grid__item
+        @include span(1)
+      .grid__item:nth-of-type(3n)
+        @include span(last 1)
+
+  // Event grid on various pages
+  &--event
+    @include layout($susy columns 4)
+    .grid__item
+      clear: both
+      border-top: 2px solid $primary
+      padding-top: 1rem
+    h3
+      margin-top: 0em
+      margin-bottom: 0
+    p
+      margin-top: 0
+      font-family: $font-regular
+    .event__info
+      @include span(last 4)
+      +for-tablet-portrait-up
+        @include span(2)
+    .event__more
+      @include span(2)
+      +for-phone-only
+        margin-bottom: 1rem
+      +for-tablet-portrait-up
+        @include span(1)
+    .event__book
+      text-transform: uppercase
+      @include span(last 2)
+      +for-tablet-portrait-up
+        @include span(last 1)
