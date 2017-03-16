@@ -14,6 +14,7 @@
   <link rel="alternate" type="application/rss+xml" title="Touchdown Dance" href="/touchdown/feed.xml">
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script src="/touchdown/assets/main.js"></script>
 
   
 </head>
@@ -24,7 +25,7 @@
     <header role="banner">
 
   <nav role="nav">
-    <a class="nav__toggle">
+    <a class="nav__toggle" role="button" aria-label="Show menu">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 34.36 35.17">
         <rect width="34.36" height="5.48" rx="0.66" ry="0.66"/>
         <rect y="14.84" width="34.36" height="5.48" rx="0.66" ry="0.66"/>
@@ -35,7 +36,7 @@
       </div>
     </a>
 
-    <ul class="list-reset nav__menu">
+    <ul class="list-reset nav__menu" aria-hidden="true">
       <li><a href="/touchdown/">Home</a></li>
       <li><a href="/touchdown/productions/">Our productions</a></li>
       <li><a href="/touchdown/work-with-us/">Work with us</a></li>

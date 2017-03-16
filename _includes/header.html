@@ -1,7 +1,7 @@
 <header role="banner">
 
   <nav role="nav">
-    <a class="nav__toggle">
+    <a class="nav__toggle" role="button" aria-label="Show menu">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 34.36 35.17">
         <rect width="34.36" height="5.48" rx="0.66" ry="0.66"/>
         <rect y="14.84" width="34.36" height="5.48" rx="0.66" ry="0.66"/>
@@ -12,7 +12,7 @@
       </div>
     </a>
 
-    <ul class="list-reset nav__menu">
+    <ul class="list-reset nav__menu" aria-hidden="true">
       <li><a href="{{ site.baseurl }}/">Home</a></li>
       <li><a href="{{ site.baseurl }}/productions/">Our productions</a></li>
       <li><a href="{{ site.baseurl }}/work-with-us/">Work with us</a></li>
