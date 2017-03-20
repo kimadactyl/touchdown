@@ -1,7 +1,8 @@
-$susy: ( gutters: 1/16, math: fluid, output: float, gutter-position: after )
+$susy: ( columns: 12, gutters: 1, math: fluid, output: float, gutter-position: after )
 
 .grid
   @include container
+  @include layout($susy)
   margin-bottom: 1rem
   &__item
     img
@@ -14,24 +15,21 @@ $susy: ( gutters: 1/16, math: fluid, output: float, gutter-position: after )
 
   // 2-up just for footer atm
   &--2
-    @include layout($susy columns 2)
     +for-tablet-portrait-up
       .grid__item
-        @include span(1)
+        @include span(6)
       .grid__item:nth-of-type(2n)
-        @include span(last 1)
+        @include span(last 6)
   // 3-up content row
   &--3
-    @include layout($susy columns 3)
     +for-tablet-portrait-up
       .grid__item
-        @include span(1)
+        @include span(4)
       .grid__item:nth-of-type(3n)
-        @include span(last 1)
+        @include span(last 4)
 
   // Event grid on various pages
   &--event
-    @include layout($susy columns 4)
     .grid__item
       clear: both
       border-top: 2px solid $primary
@@ -43,17 +41,17 @@ $susy: ( gutters: 1/16, math: fluid, output: float, gutter-position: after )
       margin-top: 0
       font-family: $font-regular
     .event__info
-      @include span(last 4)
+      @include span(last 12)
       +for-tablet-portrait-up
-        @include span(2)
+        @include span(6)
     .event__more
-      @include span(2)
+      @include span(6)
       +for-phone-only
         margin-bottom: 1rem
       +for-tablet-portrait-up
-        @include span(1)
+        @include span(3)
     .event__book
       text-transform: uppercase
-      @include span(last 2)
+      @include span(last 6)
       +for-tablet-portrait-up
-        @include span(last 1)
+        @include span(last 3)
