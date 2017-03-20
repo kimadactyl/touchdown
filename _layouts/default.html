@@ -8,7 +8,17 @@
     {% include header.html %}
 
     <main aria-label="Content">
+
+      <div class="t-2 header">
+        <a href="{{site.baseurl}}/">
+          <div class="logo">{% include logo.html %}</div>
+        </a>
+        <h1>{{ page.title }}</h1>
+        <p class="h3">{{ page.description }}</p>
+      </div>
+
       {{ content }}
+
     </main>
 
     {% include footer.html %}
