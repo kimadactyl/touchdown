@@ -7,7 +7,9 @@
 
 .t-2, .t-3
   margin: 0 (-$gutter)
-  padding: $gutter $gutter
+  padding: ($gutter / 2) $gutter
+  +for-tablet-portrait-up
+    padding: $gutter $gutter
 
 .t-2
   color: white

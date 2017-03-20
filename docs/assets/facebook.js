@@ -6,7 +6,7 @@ window.fbAsyncInit = function() {
   });
   FB.AppEvents.logPageView();
   FB.api(
-    '/touchdowndance/events',
+    '/touchdowndance/events?fields=ticket_uri,name,start_time,end_time,id,description',
     'GET',
     {
       access_token: "587228301483312|JxoFGvGJGnvSe6kXlgfChkP_sDw"
@@ -18,9 +18,12 @@ window.fbAsyncInit = function() {
       events.sort(function(a, b){
         return Date.parse(a.start_time) - Date.parse(b.start_time);
       });
-
+      
       var html = events.reduce(function(html, val){
         if(Date.parse(val.start_time) > Date.now()) {
+          html += "<div class='grid__item'>";
+          html += "<div class='event__wrapper'>";
+          html += "<div class='event__info'>";
           html += "<h3>" + val.name + "</h3>\n";
           html += "<p><time>";
           html += moment(val.start_time).format("MMMM Do YYYY, h:mma") + " &mdash; ";
@@ -29,7 +32,14 @@ window.fbAsyncInit = function() {
           } else {
             html += moment(val.end_time).format("MMMM Do h:mma") + "</time></p>\n";
           }
-          // html += "<p class='respect-line-breaks'>" + val.description + "</p>\n";
+          html += "</div>";
+          html += "<div class='event__more'><a href='http://facebook.com/events/" + val.id + "' class='btn btn--alt'>More info</a></div>";
+          html += "<div class='event__book'>";
+          if(val.ticket_uri) {
+            html += "<a href='" + val.ticket_uri + "' class='btn'>Book now</a>"
+          }
+          html += "</div>";
+          html += "</div>";
         }
         return html;
       }, "");

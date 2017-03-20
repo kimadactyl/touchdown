@@ -1,0 +1,26 @@
+.header
+  .logo
+    width: 13.5rem
+    margin-bottom: 3rem
+    path
+      fill: $background
+  h1
+    text-transform: uppercase
+    margin-bottom: 3rem
+  p
+    +for-tablet-landscape-up
+      max-width: 60%
+    +for-desktop-up
+      max-width: 25em
+
+  background-position: right center
+  background-size: contain
+  background-repeat: no-repeat
+  background-image: url("../assets/bg/mobile/home@1x.jpg")
+  +for-tablet-portrait-up
+    background-size: cover
+    background-position: center
+    background-image: url("../assets/bg/tablet/home@1x.jpg")
+  +for-tablet-landscape-up
+    background-image: url("../assets/bg/desktop/home@1x.jpg")
+    min-height: 20em

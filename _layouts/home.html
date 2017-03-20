@@ -2,19 +2,42 @@
 layout: default
 ---
 
-<div class="home">
-
-  <h1>Touchdown Dance</h1>
-
-  {{ content }}
-
-
-  <h2>Upcoming Events</h2>
-
-  <div class="events">Events loading...</div>
-
+<div class="t-2 header">
+  <div class="logo">{% include logo.html %}</div>
+  <h1>{{ page.title }}</h1>
+  <p class="h3">{{ page.description }}</p>
 </div>
 
+<blockquote class="h2">&ldquo;Touchdown Dance has changed my body and my life&rdquo;</blockquote>
 
-<script src="{{ site.baseurl }}/assets/moment.min.js"></script>
-<script src="{{ site.baseurl }}/assets/facebook.js"></script>
+<p>You can directly help support us in what we do, or explore our site to learn more.</p>
+
+<p><a href="{{ site.baseurl }}/donate/" class="btn">Donate now</a></p>
+
+<div class="t-2">
+  <div class="grid grid--3">
+    <div class="grid__item">
+      <h2>Productions</h2>
+      <img src="./assets/img/our-productions@2x.jpg" alt="" role="presentation">
+      <p>As a dance company we tour our innovative productions all over the world. We work with with both disability rights organisations and mainstream dance theater groups.</p>
+      <p><a class="btn btn--alt" href="{{ site.baseurl }}/productions/">Our productions</a></p>
+    </div>
+    <div class="grid__item">
+      <h2>Work with us</h2>
+      <img src="./assets/img/work-with-us@2x.jpg" alt="" role="presentation">
+      <p>We deliver world-class workshops based on contact improvisation for people with visual imparments all over the world. We can create bespoke workshops for your arts organisation, care centre, or health education group.</p>
+      <p><a class="btn btn--alt" href="{{ site.baseurl }}/work-with-us/">Work with us</a></p>
+    </div>
+    <div class="grid__item">
+      <h2>Who we are</h2>
+      <img src="./assets/img/who-we-are@2x.jpg" alt="" role="presentation">
+      <p>Touchdown was founded by Steve Paxton and Anne Kilcoyne in 1986 at Dartington College of Arts and was moved to the North West when Katy Dymoke took over in 1994. We have over thirty years of experience and practice to learn from.</p>
+      <p><a class="btn btn--alt" href="{{ site.baseurl }}/philosophy/">Who we are</a></p>
+    </div>
+  </div>
+</div>
+
+{% include events.html %}
+
+
+{{ content }}
