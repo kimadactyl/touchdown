@@ -10,9 +10,13 @@ $(function() {
   function toggleMenu() {
     nav_visible = !nav_visible
     if (nav_visible) {
-      nav_element.show().attr("aria-hidden","false");
+      nav_element.addClass("nav--visible")
+                 .removeClass("nav--hidden")
+                 .attr("aria-hidden","false");
     } else {
-      nav_element.hide().attr("aria-hidden","true");
+      nav_element.addClass("nav--hidden")
+                 .removeClass("nav--visible")
+                 .attr("aria-hidden","true");
     }
   }
   toggleMenu();

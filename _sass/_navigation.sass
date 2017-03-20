@@ -1,4 +1,5 @@
 .nav
+  // Mobile / Tablet landscape nav
   &__toggle
     background-color: $copy
     color: $background
@@ -25,9 +26,6 @@
     font-size: 1.5rem
     line-height: 2
     font-family: $font-demi
-    // Desktop
-    // font-size: 1.25rem
-    //line-height: 1.5
     li
       border-bottom: 2px solid $primary
       &:hover
@@ -41,6 +39,40 @@
       border-bottom: none
       display: inline-block
       width: 100%
+
+  &--hidden
+    display: none
+  &--visible
+    display: block
+
+  // Desktop nav
+  +for-tablet-landscape-up
+    background-color: $copy
+    padding-top: 1em
+    padding-bottom: 1em
+    margin-left: -$gutter
+    margin-right: -$gutter
+    &__toggle
+      display: none
+    &--hidden
+      display: block
+    &__menu
+      margin-top: 0
+      font-size: 1.25rem
+      line-height: 1.5
+      margin-left: $gutter
+      margin-right: $gutter
+      li
+        border-bottom: none
+        display: inline-block
+        margin-right: 1em
+        a
+          color: white
+          border-bottom: 2px solid $background
+
+
+
+  // Footer nav list
   &--footer
     li
       margin-right: 0.5em

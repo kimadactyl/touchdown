@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Philosophy and history
-permalink: /philosophy/
+title: Who we are
+permalink: /who-we-are/
 ---
 
 ## Intro
