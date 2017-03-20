@@ -55,3 +55,34 @@ $susy: ( columns: 12, gutters: 1, math: fluid, output: float, gutter-position: a
       @include span(last 6)
       +for-tablet-portrait-up
         @include span(last 3)
+
+  // Donate bar
+  +for-tablet-portrait-up
+    &__item--large-left
+      @include span(7)
+      @include post(1)
+    &__item--small-right
+      @include span(4 last)
+
+  // Top footer block
+  +for-tablet-landscape-up
+    &__item--small-left
+      @include span(6)
+    &__item--large-right
+      @include span(6 last)
+  +for-desktop-up
+    &__item--small-left
+      @include span(4)
+    &__item--large-right
+      @include span(8 last)
+
+  +for-tablet-portrait-up
+    .grid__item--footer-1
+      @include span(6)
+    .grid__item--footer-2
+      @include span(6 last)
+  +for-desktop-up
+    .grid__item--footer-1, .grid__item--footer-2
+      @include span(4)
+    .grid__item--footer-3
+      @include span(4 last)

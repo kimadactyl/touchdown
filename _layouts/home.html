@@ -8,11 +8,16 @@ layout: default
   <p class="h3">{{ page.description }}</p>
 </div>
 
-<blockquote class="h2">&ldquo;Touchdown Dance has changed my body and my life&rdquo;</blockquote>
+<div class="grid row">
+  <div class="grid__item grid__item--large-left">
+    <blockquote class="h2">&ldquo;Touchdown Dance has changed my body and my life&rdquo;</blockquote>
 
-<p>You can directly help support us in what we do, or explore our site to learn more.</p>
-
-<p><a href="{{ site.baseurl }}/donate/" class="btn">Donate now</a></p>
+    <p>You can directly help support us in what we do, or explore our site to learn more.</p>
+  </div>
+  <div class="grid__item grid__item--small-right">
+    <p><a href="https://touchdowndance.charitycheckout.co.uk/" class="btn h3 btn--donate">Donate now</a></p>
+  </div>
+</div>
 
 <div class="t-2">
   <div class="grid grid--3">
@@ -37,7 +42,9 @@ layout: default
   </div>
 </div>
 
-{% include events.html %}
+<div class="row">
+  {% include events.html %}
+</div>
 
 
 {{ content }}

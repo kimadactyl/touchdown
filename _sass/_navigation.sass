@@ -41,7 +41,12 @@
       border-bottom: none
       display: inline-block
       width: 100%
-
+  &--footer
+    li
+      margin-right: 0.5em
+      margin-bottom: 0.5em
+      +for-tablet-portrait-up
+        display: inline-block
 
 a:hover .nav__label
   color: $background
