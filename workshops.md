@@ -1,17 +1,6 @@
 ---
-layout: page
+layout: workshops
 title: Attend a workshop
+description: "Touchdown Dance offers weekly workshops locally in Greater Manchester and the North West as well as weekend workshops around the UK. <br><br><a href='../contact'>Get in touch</a> with us to find out more and to sign up to our e-mail list."
 permalink: /workshops/
 ---
-
-Our workshops are suitable for everyone. They are especially designed for blind or visually impaired people, or people with learning difficulties.
-
-## How to attend a workshop
-
-Browse our events below. If there's anything you want to come to you can either click the Booking link, or get in touch on our [Contact]({{ site.baseurl }}/contact) page. Some events are free, and some have a small charge.
-
-When you come to your first event...
-
-If you have any problems or don't know what to do...
-
-What to do if you are a carer...
