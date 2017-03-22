@@ -27,6 +27,8 @@ $susy: ( columns: 12, gutters: 1, math: fluid, output: float, gutter-position: a
         @include span(4)
       .grid__item:nth-of-type(3n)
         @include span(last 4)
+      .grid__item:nth-of-type(3n + 1)
+        clear: both
 
   // Event grid on various pages
   &--event

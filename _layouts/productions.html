@@ -2,23 +2,50 @@
 layout: default
 ---
 
-<div class="home">
+<div class="grid row">
+  <div class="grid__item grid__item--large-left">
+    <p>Our performances evolve from research and close collaboration with choreographers such as Ray Chung, Julyen Hamilton, and Angus Balbernie</p>
+    <p class="light">We create multi-sensory experiences to be accessible to hard-to-reach audiences &mdash; using unique forms of audio description, projection, sound and even audience participation.</p>
+  </div>
+  <div class="grid__item grid__item--small-right">
+    <img src="../assets/img/our-productions@2x.jpg" alt="" role="presentation">
+  </div>
+</div>
 
-  <h1>Productions</h1>
+<div class="t-2">
+  <h2>Touchdown Dance Company</h2>
+  <div class="grid grid--3">
+    {% for dancer in site.data.dancers %}
+      <div class="grid__item">
+        <h3>{{ dancer.name }}</h3>
+        <img src="{{ site.baseurl }}/assets/dancers/{{ dancer.image }}" alt="Photo of {{ dancer.name }}">
+        <p>{{ dancer.description }}</p>
+      </div>
+    {% endfor %}
+  </div>
+</div>
 
-  {{ content }}
+<div class="row">
+  <h2>Current production</h2>
+  <p>We're working hard at our latest production. In the mean time, explore our past productions below.</p>
+</div>
 
-  <ul class="post-list">
+<div class="t-2">
+  <h2>Past productions</h2>
+  <p>Our productions are ther esult of either our own dance company working with a choreographer, or the outcome of a course. Here's a list of all the performances we've put on over the years.</p>
+  <div class="grid grid--3">
     {% assign productions = site.productions | sort: 'start' %}
     {% for production in productions reversed %}
-      <li>
-        <h3>
+      <div class="grid__item">
+        <h3 class="h3--production">
           <a href="{{ production.url | relative_url }}">{{ production.title | escape }}</a>
-          <small><time>({{ production.start }}{% if production.finish %}  &mdash; {{ production.finish }}{% endif %})</time></small>
         </h3>
+        <p class="light"><time>
+          {{ production.start }}{% if production.finish %}  &mdash; {{ production.finish }}{% endif %}
+        </time></p>
         <p>{{ production.tagline }}</p>
-      </li>
+        <a class="btn btn--alt" href="{{ production.url | relative_url }}">More about {{ production.title }}</a>
+      </div>
     {% endfor %}
-  </ul>
-
+  </div>
 </div>
