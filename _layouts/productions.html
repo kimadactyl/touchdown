@@ -37,7 +37,7 @@ layout: default
     {% assign productions = site.productions | sort: 'start' %}
     {% for production in productions reversed %}
       <div class="grid__item">
-        <h3 class="h3--production">
+        <h3 class="h3--nbm">
           <a href="{{ production.url | relative_url }}">{{ production.title | escape }}</a>
         </h3>
         <p class="light"><time>

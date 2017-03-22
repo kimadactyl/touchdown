@@ -45,10 +45,12 @@ h3, .h3
       margin-top: 0
   &__main > p:first-child
     font-family: $font-demi
-    font-size: 1.5rem
+    // Should follow h3 rules
+    +for-desktop-up
+      font-size: 1.5rem
 
 
-.h3--production
+.h3--nbm
   margin-bottom: 0
   a
     border-bottom: 0

@@ -2,34 +2,86 @@
 layout: default
 ---
 
-<div class="home">
+<div class="row">
+  <div class="grid__item grid__item--large-left">
+    <h2>We deliver a range of workshops both independently and with local authorities and care providers.</h2>
+    <p>Want to find out how we can work together?</p>
+  </div>
+  <div class="grid__item grid__item--small-right">
+    <p><a class="btn h3 btn--donate" href="/touchdown/contact/">Get in touch</a></p>
+  </div>
+</div>
 
-  <h1>Courses</h1>
 
-  {{ content }}
+<div class="row grid">
+  <div class="grid__item grid__item--large-left">
+    <h2>Workshop packages</h2>
 
-  <ul class="post-list">
+    <h3>Community activities</h3>
+
+    <p>We run events for communities aimed at people with visual impairments but open to all. Our events help boost confidence and self-esteem, improve development and mobility, and enable people to be creative.</p>
+
+    <!-- TODO: clean up -->
+    <p>Many of these events have been at <a href="https://www.watersideartscentre.co.uk/">Waterside Arts Centre</a>, who we have worked with since 2005 delivering hundreds of events, workshops, partnerships, demonstrations and presentations.</p>
+  </div>
+  <div class="grid__item grid__item--small-right">
+    <img src="../assets/img/work-with-us@2x.jpg" alt="" role="presentation">
+  </div>
+
+  <div class="grid__item grid__item--large-left">
+    <h3>Professional training</h3>
+
+    <p>We deliver a range of professional training programs to help everyone from dancers to teachers learn how to work with visually impaired people.</p>
+
+    <p>Examples of some of these training programs and some success stories.</p>
+  </div>
+  <div class="grid__item grid__item--small-right">
+    <img src="../assets/img/work-with-us@2x.jpg" alt="" role="presentation">
+  </div>
+
+  <div class="grid__item grid__item--large-left">
+    <h3>Organisational partnerships</h3>
+
+    <p>We specialise in creating bespoke workshop packages for arts organisations, care centres and health education groups to work with blind and visually impaired people. We create and deliver activities, training and education to improve the reach and diversity of your organisation.</p>
+
+    <p>We have worked with a large range of organisations across the world such as <abbr title="Royal National Institute for the Blind">RNIB</abbr>, British Council, Sadler’s Wells, Children in Need, Manchester City Council and Henshaw’s Society for the Blind.</p>
+
+    <p>To find out more about how we can work with your organisation, have a look at our <a href="/touchdown/starting-points/">starting points</a>.</p>
+  </div>
+  <div class="grid__item grid__item--small-right">
+    <img src="../assets/img/our-productions@2x.jpg" alt="" role="presentation">
+  </div>
+</div>
+
+
+<div class="row t-2">
+  <h2>Past courses</h2>
+  <div class="grid">
+    <div class="grid__item grid__item--large-left">
+      <p class="h3">Here’s a list of some of the courses and activities we’ve run and the people we’ve worked with.</p>
+    </div>
+  </div>
+  <div class="grid grid--3">
     {% assign courses = site.courses | sort: 'start' %}
     {% for course in courses reversed %}
-      <li>
-        <h3>
+      <div class="grid__item">
+        <h3 class="h3--nbm">
           {% if course.full_page %}
             <a href="{{ course.url | relative_url }}">{{ course.title | escape }}</a>
           {% else %}
             {{ course.title | escape }}
           {% endif %}
-          <small><time>({{ course.start }}{% if course.finish %} &ndash; {{ course.finish }}{% endif %})</time></small>
         </h3>
+        <p><time>{{ course.start }}{% if course.finish %} &ndash; {{ course.finish }}{% endif %}</time></p>
         {% if course.full_page %}
           {{ course.excerpt }}
         {% else %}
          {{ course.content }}
        {% endif %}
        {% if course.full_page %}
-          <a class="btn" href="{{ course.url | relative_url }}">Read more &hellip;</a>
+          <a class="btn btn--alt" href="{{ course.url | relative_url }}">Discover more</a>
        {% endif %}
-      </li>
+      </div>
     {% endfor %}
-  </ul>
-
+  </div>
 </div>

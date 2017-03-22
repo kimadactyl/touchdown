@@ -1,16 +1,12 @@
 ---
 layout: default
 ---
-<article class="production">
 
-  <header>
-    <h1>{{ page.title | escape }}</h1>
-    <p>{{ page.tagline }}</p>
-    <p>{{ page.start }}{% if page.finish %} &mdash; {{ page.finish }}{% endif %}</p>
-  </header>
-
-  {{ content }}
-
-</article>
-
-<p><a href="{{ site.baseurl }}/courses/">Back to Courses</a></p>
+<div class="row production grid">
+  <div class="grid__item production__main grid__item--large-left">
+    {{ content }}
+  </div>
+</div>
+<div class="row">
+  <p><a class="btn" href="{{ site.baseurl }}/work-with-us/">Back to work with us</a></p>
+</div>
