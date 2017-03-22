@@ -43,7 +43,7 @@ layout: default
         <p class="light"><time>
           {{ production.start }}{% if production.finish %}  &mdash; {{ production.finish }}{% endif %}
         </time></p>
-        <p>{{ production.tagline }}</p>
+        <p>{{ production.description }}</p>
         <a class="btn btn--alt" href="{{ production.url | relative_url }}">More about {{ production.title }}</a>
       </div>
     {% endfor %}

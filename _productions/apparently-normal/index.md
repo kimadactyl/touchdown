@@ -1,11 +1,18 @@
 ---
 title: Apparently Normal
-tagline: "On an apparently normal day, while in an apparently normal Manchester, there is an apparently normal person&hellip; with a white stick&hellip;"
+description: "On an apparently normal day, while in an apparently normal Manchester, there is an apparently normal person&hellip; with a white stick&hellip;"
 start: 2010
 permalink: /productions/apparently-normal/
+performances:
+  - title: Leap! Dance Festival
+    description: Rose Theatre, Edge Hill University
+  - title: Brindley Arts Centre, Runcorn
+    description: Workshops
+  - title: Turn dance festival
+    description: Greenroom, Manchester. An excerpt of new work, "look into the light" with Jamus Wood, Robert Andersen and Katy Dymoke.
+  - title: Contact Improvisation festival
+    description: Bluecoat Theatre, Liverpool
 ---
-
-> On an apparently normal day, while in an apparently normal Manchester, there is an apparently normal person&hellip; with a white stick&hellip;
 
 Apparently Normal is a new dance work inspired by the real life day-to-day life of visually impaired people, contrasting the clash of difference in normality between them and the sighted. Consisting of thematically related sections, six dancers look at the black humour of injustice, from the mild to the outrageous, from the ironic to the disdainful.
 
@@ -13,7 +20,7 @@ Day to day life for people living with visual impairment can be precarious, not 
 
 Using choreography combined with narrative and text, scenarios both real and abstract are played out, where the social under-dog triumphs over the human or institutional oppressor.
 
-## A flavour of what's to come&hellip;
+### A flavour of what's to come&hellip;
 
 **Rushing&hellip;** Strangers are knocked flying as the ever rushing sighted are blind to their surroundings&hellip; yet the slower blind see all as they both reach out and listen&hellip;
 
@@ -25,15 +32,8 @@ Using choreography combined with narrative and text, scenarios both real and abs
 
 Apparently Normal's creation follows a successful R&D process in August and November 2008.
 
-## Whose Normality&hellip;?
+### Whose Normality&hellip;?
 
 When dancer Stuart Jackson spins on stage then stops still on the spot without falling, people watching can't understand. As Stuart is blind from birth, his dance is truly his. It is apparently not normal for a blind person to be dancing freely on stage. The general assumption is: if you can't see, how can you perform in a restricted space amongst other dancers?
 
 What is normal for Touchdown is not the social or cultural norm. It is normal for the visually impaired dancers of Touchdown to move freely in space, to create dance that both touches and excels expectations. Drawing on the lunacy, the trauma and the poignancy of real experience over the last 5 years, Touchdown explore the humour, narrative and the edginess that arises when one compares that is apparently normal for visually impaired people and what is apparently expected of them by the sighted.
-
-## Performances
-
- * Leap! Dance Festival, Rose Theatre, Edge Hill University.
- * Brindley Arts Centre, Runcorn with Workshops.
- * Turn dance festival at the Greenroom, Manchester, an excerpt of new work, "look into the light" with Jamus Wood, Robert Andersen and Katy Dymoke.
- * Bluecoat Theatre in Liverpool at Contact Improvisation festival

@@ -1,9 +1,15 @@
 ---
 title: i-radiate
-tagline: i-radiate sensate surfing the senses into movement
+description: i-radiate sensate surfing the senses into movement
 start: 2000
 finish: 2001
 permalink: /productions/i-radiate/
+performances:
+  - title: Resolutions!
+    description: The Place, London. Platform for emergent dance work.
+  - title: Romiley Forum
+  - title: Unity Theatre Liverpool
+  - title: Thameside Courtyard Theatre
 ---
 
 An improvised performance involving three community and three professional dancers, with projection of drawings by Nick Fry (Undercover design) and sound scores by Scott Smith of Image Lab (US)
@@ -14,16 +20,12 @@ This was the first Touchdown Dance production featuring dancers who attended the
 
 The production received an Export Bursary and Pivot Commission from Dance NorthWest and was a collaboration with Contact Theatre.
 
-## Performances
-
-First performed at the festival and platform for emergent dance work called Resolutions! The Place, London. Also performed at Romiley Forum, Unity Theatre Liverpool and Thameside Courtyard Theatre,
-
-## Credits
+### Credits
 
  * Dancers: Alan Foster, John Hurley, Patrick Beelaert, Katy Dymoke
  * PR Undercover Design: Nick Fry
  * Scores: Scott Smith
 
-> Sublime (Arts Council).  
+> Sublime (Arts Council)  
 
-> I have to learn to see dance differently, I have to learn how to watch this, it was different.  (Ballet dancer audience)
+> I have to learn to see dance differently, I have to learn how to watch this, it was different (Ballet dancer audience)

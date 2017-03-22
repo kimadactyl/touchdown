@@ -1,17 +1,21 @@
 ---
 layout: default
 ---
-<article class="production">
 
-  <header>
-    <h1>{{ page.title | escape }}</h1>
-    <p>{{ page.start }}{% if page.finish %} &mdash; {{ page.finish }}{% endif %}</p>
-  </header>
-
-  {{ content }}
-
-</article>
-
-<p><a href="{{ site.baseurl }}/productions/">Back to Productions</a></p>
-
-<!-- TODO: add next and previous links -->
+<div class="row production grid">
+  <div class="grid__item production__main grid__item--large-left">
+    {{ content }}
+  </div>
+  <div class="grid__item grid__item--small-right">
+    <h2 class="h3">Performances</h2>
+    {% for performance in page.performances %}
+      <h4>{{ performance.title }}</h4>
+      {% if performance.description %}
+        <p>{{ performance.description }}</p>
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>
+<div class="row">
+  <p><a class="btn" href="{{ site.baseurl }}/productions/">Back to our productions</a></p>
+</div>
