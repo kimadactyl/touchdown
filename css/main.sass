@@ -18,6 +18,19 @@
   @media (min-width: 1200px)
     @content
 
+=full-width($color)
+  position: relative
+  &:before
+    content: ""
+    position: absolute
+    top: 0
+    bottom: 0
+    left: -9999px
+    right: 0
+    border-left: 9999px solid $color
+    box-shadow: 9999px 0 0 $color
+    z-index: -1
+
 // Define defaults for each variable.
 
 $primary: #EA516D
@@ -31,7 +44,7 @@ $font-regular:  "CartographSansCF-Regular", Helvetica, Arial, sans-serif
 $font-bold:     "CartographSansCF-Bold", Helvetica, Arial, sans-serif
 
 // Spacing around left and right
-$gutter: 3rem
+$gutter: 2.5rem
 
 @import "_colours"
 @import "_typography"

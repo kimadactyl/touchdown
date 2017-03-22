@@ -3,16 +3,23 @@
 
 .t-1
   color: $primary
-  background-color: white
+  background-color: $background
 
 .t-2, .t-3
   margin: 0 (-$gutter)
   padding: ($gutter / 2) $gutter
 
+
 .t-2
-  color: white
-  background-color: $primary
+  color: $background
+  background: $primary
+  // h/t https://css-tricks.com/full-browser-width-bars/#article-header-id-2
+  +for-desktop-up
+    +full-width($primary)
+
 
 .t-3
-  color: white
-  background-color: black
+  color: $background
+  background-color: $copy
+  +for-desktop-up
+    +full-width($copy)
