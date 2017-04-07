@@ -30,8 +30,12 @@
       border-bottom: 2px solid $primary
       &:hover
         background-color: $primary
+        +for-tablet-landscape-up
+          background-color: transparent
         a
           color: $background
+          +for-tablet-landscape-up
+            border-bottom-color: $primary
     li.nav__item--last
       border-bottom: none
 
@@ -53,7 +57,7 @@
     margin-left: -$gutter
     margin-right: -$gutter
     +for-desktop-up
-      +full-width($copy)    
+      +full-width($copy)
     &__toggle
       display: none
     &--hidden
