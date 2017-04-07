@@ -9,15 +9,17 @@
 
     <main aria-label="Content">
 
-      <div class="row t-2 header">
-        <a href="{{site.baseurl}}/">
-          <div class="logo">{% include logo.html %}</div>
-        </a>
-        <h1>
-          {{ page.title }}
-          {% if page.start %}({{ page.start }}{% if page.finish %} &mdash; {{ page.finish }}{% endif %}){% endif %}
-        </h1>
-        <p class="h3">{{ page.description }}</p>
+      <div class="header t-2 header--{{ page.layout }}">
+        <div class="row header__content">
+          <a href="{{site.baseurl}}/">
+            <div class="logo">{% include logo.html %}</div>
+          </a>
+          <h1>
+            {{ page.title }}
+            {% if page.start %}({{ page.start }}{% if page.finish %} &mdash; {{ page.finish }}{% endif %}){% endif %}
+          </h1>
+          <p class="h3">{{ page.description }}</p>
+        </div>
       </div>
 
       {{ content }}

@@ -1,6 +1,10 @@
 /* Add spacing top and bottom */
 .row
   padding: ($gutter / 2) 0
+  margin: 0 $gutter
+  +for-desktop-up
+    max-width: 1200px
+    margin: 0 auto
 
 /* Main theme - here for completeness, not actually used */
 .t-1
