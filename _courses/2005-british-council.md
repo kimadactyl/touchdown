@@ -4,5 +4,6 @@ start: 2005
 finish: 2017
 ---
 
- * 2005 oct Barcelona, conference workshop and presentation - British Council.
- * 2011-17 sri lanka/India collaboration with nATANDA Dance Theatre of Sri Lanka.
+In 2005 we ran a conference workshop and presentation in Barcelona on behalf of the British Council.
+
+We followed this up in 2011-17 in Sri Lanka and India, in collaboration with nATANDA Dance Theatre of Sri Lanka.

@@ -131,7 +131,115 @@
 
 </div>
 
-<!-- <iframe src="https://maps.googleapis.com/maps/api/staticmap?key=AIzaSyACjavo5ZKfyNLd5BOrVxfhcA7FtFoqGM8&center=53.470825547256965,-2.265298714599566&zoom=14&format=png&maptype=roadmap&style=element:geometry%7Ccolor:0x000000&style=element:labels.text.fill%7Ccolor:0xffffff&style=element:labels.text.stroke%7Ccolor:0x000000&style=feature:administrative%7Celement:geometry%7Cvisibility:off&style=feature:administrative.locality%7Celement:labels.text.fill%7Ccolor:0xffffff&style=feature:poi%7Ccolor:0xea516d%7Cvisibility:off&style=feature:poi%7Celement:labels.text.fill%7Ccolor:0xea516d&style=feature:poi.park%7Celement:geometry%7Ccolor:0x752836&style=feature:poi.park%7Celement:labels.text.fill%7Ccolor:0xea516d&style=feature:road%7Celement:geometry%7Ccolor:0xea516d&style=feature:road%7Celement:geometry.stroke%7Ccolor:0xffffff&style=feature:road%7Celement:labels.icon%7Cvisibility:off&style=feature:road%7Celement:labels.text.fill%7Ccolor:0xffffff&style=feature:road.highway%7Celement:geometry%7Ccolor:0xea516d&style=feature:road.highway%7Celement:geometry.stroke%7Ccolor:0x000000&style=feature:road.highway%7Celement:labels.text.fill%7Ccolor:0xffffff&style=feature:transit%7Cvisibility:off&style=feature:transit%7Celement:geometry%7Ccolor:0xea516d&style=feature:transit.station%7Celement:labels.text.fill%7Ccolor:0xffffff&style=feature:water%7Celement:geometry%7Ccolor:0x752836&style=feature:water%7Celement:labels.text.fill%7Ccolor:0xffffff&style=feature:water%7Celement:labels.text.stroke%7Ccolor:0x000000&size=480x360" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe> -->
+<div id="map"></div>
+<script>
+  function initMap() {
+    var waterside = {lat: 53.4251605, lng: -2.3215189};
+    var styles = [{
+    	"elementType": "geometry",
+    	"stylers": [{
+    		"color": "#ea516d"
+    	}]
+    }, {
+    	"elementType": "labels.icon",
+    	"stylers": [{
+    		"visibility": "off"
+    	}]
+    }, {
+    	"elementType": "labels.text.fill",
+    	"stylers": [{
+    		"color": "#ffffff"
+    	}]
+    }, {
+    	"elementType": "labels.text.stroke",
+    	"stylers": [{
+    		"color": "#000000"
+    	}]
+    }, {
+    	"featureType": "administrative.land_parcel",
+    	"elementType": "labels.text.fill",
+    	"stylers": [{
+    		"color": "#000000"
+    	}]
+    }, {
+    	"featureType": "poi",
+    	"elementType": "geometry",
+    	"stylers": [{
+    		"visibility": "off"
+    	}]
+    }, {
+    	"featureType": "poi.park",
+    	"elementType": "geometry",
+    	"stylers": [{
+    		"visibility": "off"
+    	}]
+    }, {
+    	"featureType": "poi.park",
+    	"elementType": "labels.text.fill",
+    	"stylers": [{
+    		"color": "#ffffff"
+    	}]
+    }, {
+    	"featureType": "road",
+    	"elementType": "geometry",
+    	"stylers": [{
+    		"color": "#ffffff"
+    	}]
+    }, {
+    	"featureType": "road",
+    	"elementType": "labels.text.fill",
+    	"stylers": [{
+    		"color": "#ffffff"
+    	}]
+    }, {
+    	"featureType": "road.highway",
+    	"elementType": "geometry",
+    	"stylers": [{
+    		"color": "#000000"
+    	}]
+    }, {
+    	"featureType": "road.highway",
+    	"elementType": "labels.text.fill",
+    	"stylers": [{
+    		"color": "#ffffff"
+    	}]
+    }, {
+    	"featureType": "transit.line",
+    	"elementType": "geometry",
+    	"stylers": [{
+    		"color": "#000000"
+    	}]
+    }, {
+    	"featureType": "transit.station",
+    	"elementType": "geometry",
+    	"stylers": [{
+    		"color": "#ffffff"
+    	}]
+    }, {
+    	"featureType": "water",
+    	"elementType": "geometry",
+    	"stylers": [{
+    		"color": "#f5a8b6"
+    	}]
+    }, {
+    	"featureType": "water",
+    	"elementType": "labels.text.fill",
+    	"stylers": [{
+    		"color": "#000000"
+    	}]
+    }]
+    var map = new google.maps.Map(document.getElementById('map'), {
+      zoom: 13,
+      center: waterside,
+      styles: styles
+    });
+    var marker = new google.maps.Marker({
+      position: waterside,
+      map: map
+    });
+  }
+</script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyACjavo5ZKfyNLd5BOrVxfhcA7FtFoqGM8&callback=initMap"></script>
 
 
     </main>

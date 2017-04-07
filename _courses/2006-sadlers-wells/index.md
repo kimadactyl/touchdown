@@ -6,7 +6,9 @@ full_page: true
 permalink: /courses/2006-sadlers-wells/
 ---
 
-The festival provided an opportunity to look at how to develop constructive approaches to give feedback that will lead companies to go on and generate professionally competent and confident work. The 'Changing Perspectives' event at Sadler's Well's Lilian Baylis Theatre featured UK based dance individuals and companies (Corali, AMICI, Touchdown Dance, High Spin) for whom disability dance is key.
+The festival provided an opportunity to look at how to develop constructive approaches to give feedback that will lead companies to go on and generate professionally competent and confident work.
+
+The 'Changing Perspectives' event at Sadler's Well's Lilian Baylis Theatre featured UK based dance individuals and companies (Corali, AMICI, Touchdown Dance, High Spin) for whom disability dance is key.
 
 In this platform of works in progress we were given a pencil and paper on entering the auditorium to jot down our thoughts, feelings and reactions to use in the post-show discussion.
 
