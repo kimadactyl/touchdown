@@ -15,6 +15,12 @@ layout: default
           <p>{{ performance.description }}</p>
         {% endif %}
       {% endfor %}
+      {% if page.images %}
+        <h2 class="h3">Photos</h2>
+        {% for image in page.images %}
+          <img src="{{site.baseurl}}/assets{{ page.permalink }}{{ image }}" role="presentation"><br>
+        {% endfor %}
+      {% endif %}
     </div>
   </div>
 </div>

@@ -24,8 +24,6 @@ sass:
 # Build settings
 markdown: kramdown
 destination: docs
-gems:
-  - jekyll-feed
 collections:
   productions:
     output: true

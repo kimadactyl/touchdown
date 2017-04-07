@@ -4,6 +4,11 @@ description: A theatrical dance performance involving text, video projection and
 start: 2002
 finish: 2003
 permalink: /productions/tact/
+images:
+  - 1.jpg
+  - 2.jpg
+  - 3.jpg
+header: true
 performances:
   - title: Royal Festival Hall residency
     description: Summer 2002

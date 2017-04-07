@@ -4,6 +4,11 @@ description: Using senses other than eyes, six dancers take flight aiming to bri
 start: 2005
 finish: 2008
 permalink: /productions/closer/
+style: closer
+images:
+  - 1.jpg
+  - 2.jpg
+  - 3.jpg
 performances:
   - title: Nuffield Theatre
     description: Lancaster, 9th Nov 2005

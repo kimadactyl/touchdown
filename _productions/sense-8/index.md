@@ -3,6 +3,11 @@ title: Sense 8
 description: Multiple layers of perception emerge through the moving cameras, the editing and the sound track, creating a multi-perspective experience of dance.
 start: 2001
 permalink: /productions/sense-8/
+images:
+  - 1.jpg
+  - 2.jpg
+  - 3.jpg
+header: true
 performances:
   - title: "Art Council England 'Capture' series"
     description: London, November 2001
