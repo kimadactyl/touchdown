@@ -53,7 +53,7 @@ layout: default
           {{ production.start }}{% if production.finish %}  &mdash; {{ production.finish }}{% endif %}
         </time></p>
         {% if production.images %}
-          <img src="{{ site.baseurl }}/assets{{ production.permalink }}1.jpg" alt="Photo of {{ production.title }}">
+          <a href="{{ production.url | relative_url }}"><img src="{{ site.baseurl }}/assets{{ production.permalink }}1.jpg" alt="Photo of {{ production.title }}"></a>
         {% endif %}
         <p>{{ production.description }}</p>
         <a class="btn btn--alt" href="{{ production.url | relative_url }}">More about {{ production.title }}</a>
