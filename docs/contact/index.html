@@ -117,14 +117,16 @@
 </div>
 
 <div class="row t-2">
+  <div class="t-1--decorate">
   <div class="row">
-  <div class="grid">
-    <div class="grid__item grid__item--large-left">
-      <blockquote class="h2">&ldquo;Touchdown Dance has changed my body and my life&rdquo;</blockquote>
-      <p>You can directly help support us in what we do, or explore our site to learn more.</p>
-    </div>
-    <div class="grid__item grid__item--small-right">
-      <p><a href="https://touchdowndance.charitycheckout.co.uk/" class="btn h3 btn--donate">Donate now</a></p>
+    <div class="grid">
+      <div class="grid__item grid__item--large-left">
+        <blockquote class="h2">&ldquo;Touchdown Dance has changed my body and my life&rdquo;</blockquote>
+        <p>You can directly help support us in what we do, or explore our site to learn more.</p>
+      </div>
+      <div class="grid__item grid__item--small-right">
+        <p><a href="https://touchdowndance.charitycheckout.co.uk/" class="btn h3 btn--donate">Donate now</a></p>
+      </div>
     </div>
   </div>
 </div>
@@ -135,99 +137,148 @@
 <script>
   function initMap() {
     var waterside = {lat: 53.4251605, lng: -2.3215189};
-    var styles = [{
-    	"elementType": "geometry",
-    	"stylers": [{
-    		"color": "#ea516d"
-    	}]
-    }, {
-    	"elementType": "labels.icon",
-    	"stylers": [{
-    		"visibility": "off"
-    	}]
-    }, {
-    	"elementType": "labels.text.fill",
-    	"stylers": [{
-    		"color": "#ffffff"
-    	}]
-    }, {
-    	"elementType": "labels.text.stroke",
-    	"stylers": [{
-    		"color": "#000000"
-    	}]
-    }, {
-    	"featureType": "administrative.land_parcel",
-    	"elementType": "labels.text.fill",
-    	"stylers": [{
-    		"color": "#000000"
-    	}]
-    }, {
-    	"featureType": "poi",
-    	"elementType": "geometry",
-    	"stylers": [{
-    		"visibility": "off"
-    	}]
-    }, {
-    	"featureType": "poi.park",
-    	"elementType": "geometry",
-    	"stylers": [{
-    		"visibility": "off"
-    	}]
-    }, {
-    	"featureType": "poi.park",
-    	"elementType": "labels.text.fill",
-    	"stylers": [{
-    		"color": "#ffffff"
-    	}]
-    }, {
-    	"featureType": "road",
-    	"elementType": "geometry",
-    	"stylers": [{
-    		"color": "#ffffff"
-    	}]
-    }, {
-    	"featureType": "road",
-    	"elementType": "labels.text.fill",
-    	"stylers": [{
-    		"color": "#ffffff"
-    	}]
-    }, {
-    	"featureType": "road.highway",
-    	"elementType": "geometry",
-    	"stylers": [{
-    		"color": "#000000"
-    	}]
-    }, {
-    	"featureType": "road.highway",
-    	"elementType": "labels.text.fill",
-    	"stylers": [{
-    		"color": "#ffffff"
-    	}]
-    }, {
-    	"featureType": "transit.line",
-    	"elementType": "geometry",
-    	"stylers": [{
-    		"color": "#000000"
-    	}]
-    }, {
-    	"featureType": "transit.station",
-    	"elementType": "geometry",
-    	"stylers": [{
-    		"color": "#ffffff"
-    	}]
-    }, {
-    	"featureType": "water",
-    	"elementType": "geometry",
-    	"stylers": [{
-    		"color": "#f5a8b6"
-    	}]
-    }, {
-    	"featureType": "water",
-    	"elementType": "labels.text.fill",
-    	"stylers": [{
-    		"color": "#000000"
-    	}]
-    }]
+    var styles = [
+  {
+    "elementType": "geometry",
+    "stylers": [
+      {
+        "color": "#000000"
+      }
+    ]
+  },
+  {
+    "elementType": "labels.icon",
+    "stylers": [
+      {
+        "visibility": "off"
+      }
+    ]
+  },
+  {
+    "elementType": "labels.text.fill",
+    "stylers": [
+      {
+        "color": "#ffffff"
+      }
+    ]
+  },
+  {
+    "elementType": "labels.text.stroke",
+    "stylers": [
+      {
+        "color": "#000000"
+      }
+    ]
+  },
+  {
+    "featureType": "administrative.land_parcel",
+    "elementType": "labels.text.fill",
+    "stylers": [
+      {
+        "color": "#000000"
+      }
+    ]
+  },
+  {
+    "featureType": "poi",
+    "elementType": "geometry",
+    "stylers": [
+      {
+        "visibility": "off"
+      }
+    ]
+  },
+  {
+    "featureType": "poi.park",
+    "elementType": "geometry",
+    "stylers": [
+      {
+        "visibility": "off"
+      }
+    ]
+  },
+  {
+    "featureType": "poi.park",
+    "elementType": "labels.text.fill",
+    "stylers": [
+      {
+        "color": "#ffffff"
+      }
+    ]
+  },
+  {
+    "featureType": "road",
+    "elementType": "geometry",
+    "stylers": [
+      {
+        "color": "#eb516d"
+      }
+    ]
+  },
+  {
+    "featureType": "road",
+    "elementType": "labels.text.fill",
+    "stylers": [
+      {
+        "color": "#ffffff"
+      }
+    ]
+  },
+  {
+    "featureType": "road.highway",
+    "elementType": "geometry",
+    "stylers": [
+      {
+        "color": "#eb516d"
+      }
+    ]
+  },
+  {
+    "featureType": "road.highway",
+    "elementType": "labels.text.fill",
+    "stylers": [
+      {
+        "color": "#ffffff"
+      }
+    ]
+  },
+  {
+    "featureType": "transit.line",
+    "elementType": "geometry",
+    "stylers": [
+      {
+        "color": "#000000"
+      }
+    ]
+  },
+  {
+    "featureType": "transit.station",
+    "elementType": "geometry",
+    "stylers": [
+      {
+        "color": "#ffffff"
+      }
+    ]
+  },
+  {
+    "featureType": "water",
+    "elementType": "geometry",
+    "stylers": [
+      {
+        "color": "#782b35"
+      }
+    ]
+  },
+  {
+    "featureType": "water",
+    "elementType": "labels.text.fill",
+    "stylers": [
+      {
+        "color": "#000000"
+      }
+    ]
+  }
+]
     var map = new google.maps.Map(document.getElementById('map'), {
       zoom: 13,
       center: waterside,
