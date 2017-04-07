@@ -1,6 +1,12 @@
 /* Add spacing top and bottom */
 .row
-  padding: ($gutter / 2) 0
+  padding: ($gutter / 2) $gutter
+  +for-desktop-up
+    max-width: 1200px
+    margin: 0 auto
+
+.row--thin
+  padding: 0
   margin: 0 $gutter
   +for-desktop-up
     max-width: 1200px

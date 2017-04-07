@@ -23,27 +23,29 @@
   <body>
 
     <header role="banner">
-  <nav class="nav" role="nav">
-    <a class="nav__toggle" role="button" aria-label="Show menu">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 34.36 35.17">
-        <rect width="34.36" height="5.48" rx="0.66" ry="0.66"/>
-        <rect y="14.84" width="34.36" height="5.48" rx="0.66" ry="0.66"/>
-        <rect y="29.69" width="34.36" height="5.48" rx="0.66" ry="0.66"/>
-      </svg>
-      <div class="nav__label">
-        Menu
-      </div>
-    </a>
+  <div class="row--thin">
+    <nav class="nav" role="nav">
+      <a class="nav__toggle" role="button" aria-label="Show menu">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 34.36 35.17">
+          <rect width="34.36" height="5.48" rx="0.66" ry="0.66"/>
+          <rect y="14.84" width="34.36" height="5.48" rx="0.66" ry="0.66"/>
+          <rect y="29.69" width="34.36" height="5.48" rx="0.66" ry="0.66"/>
+        </svg>
+        <div class="nav__label">
+          Menu
+        </div>
+      </a>
 
-    <ul class="list-reset nav__menu" aria-hidden="true">
-      <li><a href="/touchdown/productions/">Our productions</a></li>
+      <ul class="list-reset nav__menu" aria-hidden="true">
+        <li><a href="/touchdown/productions/">Our productions</a></li>
 <li><a href="/touchdown/work-with-us/">Work with us</a></li>
 <li><a href="/touchdown/workshops/">Attend a workshop</a></li>
 <li><a href="/touchdown/who-we-are/">Who we are</a></li>
 <li class="nav__item--last"><a href="/touchdown/contact/">Contact us</a></li>
 
-    </ul>
-  </nav>
+      </ul>
+    </nav>
+  </div>
 </header>
 
 
@@ -80,34 +82,36 @@
         </div>
       </div>
 
-      <div class="row grid">
-  <div class="grid__item grid__item--large-left">
-    <h2>Send us a message</h2>
-    <form action="https://getsimpleform.com/messages?form_api_token=f1191b02e067771e68c83de0ce111d87" method="post">
-      <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
-      <input type='hidden' name='redirect_to' value='<the complete return url e.g. http://touchdowndance.co.uk/contact/>' />
-      <!-- all your input fields here.... -->
-      <input type='text' name='name' id='name' class="form__full" placeholder="Your name">
-      <input type='tel' name='tel' id='tel' class="form__half" placeholder="Your telephone number">
-      <input type='email' name='email' id='email' class="form__half" placeholder="Your email address">
-      <textarea name='message' id='message' class="form__full" rows="8" placeholder="Your message"></textarea>
-      <input type='submit' class="btn" value='Send message' />
-    </form>
+      <div class="row">
+  <div class="grid">
+    <div class="grid__item grid__item--large-left">
+      <h2>Send us a message</h2>
+      <form action="https://getsimpleform.com/messages?form_api_token=f1191b02e067771e68c83de0ce111d87" method="post">
+        <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
+        <input type='hidden' name='redirect_to' value='<the complete return url e.g. http://touchdowndance.co.uk/contact/>' />
+        <!-- all your input fields here.... -->
+        <input type='text' name='name' id='name' class="form__full" placeholder="Your name">
+        <input type='tel' name='tel' id='tel' class="form__half" placeholder="Your telephone number">
+        <input type='email' name='email' id='email' class="form__half" placeholder="Your email address">
+        <textarea name='message' id='message' class="form__full" rows="8" placeholder="Your message"></textarea>
+        <input type='submit' class="btn" value='Send message' />
+      </form>
 
-  </div>
-  <div itemscope itemtype="http://schema.org/Organization" class="grid__item grid__item--small-right">
-    <h2>Our details</h2>
-    <div><abbr title="Telephone">T:</abbr> <a itemprop="telephone" href="tel:+44-161-912-5760">0161 912 5760</a></div>
-    <div><abbr title="Email">E:</abbr> <a itemprop="email" href="mailto:info@touchdowndance.co.uk">info@touchdowndance.co.uk</a></div>
-    <br><br>
-    <div itemprop="name">Touchdown Dance</div>
-    <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-        <span itemprop="streetAddress">
-          Waterside Arts Centre,<br>
-          1 Waterside,<br>
-        </span>
-        <span itemprop="addressRegion">Sale</span>,
-        <span itemprop="postalCode">M33 7ZF</span>
+    </div>
+    <div itemscope itemtype="http://schema.org/Organization" class="grid__item grid__item--small-right">
+      <h2>Our details</h2>
+      <div><abbr title="Telephone">T:</abbr> <a itemprop="telephone" href="tel:+44-161-912-5760">0161 912 5760</a></div>
+      <div><abbr title="Email">E:</abbr> <a itemprop="email" href="mailto:info@touchdowndance.co.uk">info@touchdowndance.co.uk</a></div>
+      <br><br>
+      <div itemprop="name">Touchdown Dance</div>
+      <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+          <span itemprop="streetAddress">
+            Waterside Arts Centre,<br>
+            1 Waterside,<br>
+          </span>
+          <span itemprop="addressRegion">Sale</span>,
+          <span itemprop="postalCode">M33 7ZF</span>
+      </div>
     </div>
   </div>
 </div>
@@ -133,6 +137,7 @@
     </main>
 
     <footer role="contentinfo">
+
   <div class="row t-2">
     <div class="grid">
       <div class="grid__item grid__item--small-left">
@@ -168,6 +173,7 @@
           </li>
         </ul>
       </div>
+
       <div class="grid__item grid__item--large-right">
         <h3 class="sitemap">Sitemap</h3>
         <ul class="list-reset nav--footer light" aria-hidden="true">
@@ -180,8 +186,10 @@
 
         </ul>
       </div>
+
     </div>
   </div>
+
   <div class="row t-3">
     <div itemtype="http://schema.org/Organization" class="grid">
       <div class="grid__item grid__item--footer-1">
@@ -211,6 +219,7 @@
       </div>
     </div>
   </div>
+
 </footer>
 
 

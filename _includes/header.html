@@ -1,18 +1,20 @@
 <header role="banner">
-  <nav class="nav" role="nav">
-    <a class="nav__toggle" role="button" aria-label="Show menu">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 34.36 35.17">
-        <rect width="34.36" height="5.48" rx="0.66" ry="0.66"/>
-        <rect y="14.84" width="34.36" height="5.48" rx="0.66" ry="0.66"/>
-        <rect y="29.69" width="34.36" height="5.48" rx="0.66" ry="0.66"/>
-      </svg>
-      <div class="nav__label">
-        Menu
-      </div>
-    </a>
+  <div class="row--thin">
+    <nav class="nav" role="nav">
+      <a class="nav__toggle" role="button" aria-label="Show menu">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 34.36 35.17">
+          <rect width="34.36" height="5.48" rx="0.66" ry="0.66"/>
+          <rect y="14.84" width="34.36" height="5.48" rx="0.66" ry="0.66"/>
+          <rect y="29.69" width="34.36" height="5.48" rx="0.66" ry="0.66"/>
+        </svg>
+        <div class="nav__label">
+          Menu
+        </div>
+      </a>
 
-    <ul class="list-reset nav__menu" aria-hidden="true">
-      {% include navigation.html %}
-    </ul>
-  </nav>
+      <ul class="list-reset nav__menu" aria-hidden="true">
+        {% include navigation.html %}
+      </ul>
+    </nav>
+  </div>
 </header>
