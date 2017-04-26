@@ -15,12 +15,13 @@ window.fbAsyncInit = function() {
 
       var events = response.data;
 
+
       events.sort(function(a, b){
-        return Date.parse(a.start_time) - Date.parse(b.start_time);
+        return moment(a.start_time) - moment(b.start_time);
       });
-      
+
       var html = events.reduce(function(html, val){
-        if(Date.parse(val.start_time) > Date.now()) {
+        if(moment(val.start_time) > Date.now()) {
           html += "<div class='grid__item'>";
           html += "<div class='event__wrapper'>";
           html += "<div class='event__info'>";
