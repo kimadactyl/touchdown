@@ -45,6 +45,10 @@ window.fbAsyncInit = function() {
         return html;
       }, "");
 
+      if(html == "") {
+        html = "No events listed at the moment, or there was an error retrieving from Facebook.<br> <a href='https://www.facebook.com/touchdowndance/'>Check out Facebook page for more information."
+      }
+
       $('.events').html(html);
     }
   );
