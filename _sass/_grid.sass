@@ -93,3 +93,9 @@ $susy: ( columns: 12, gutters: 1, math: fluid, output: float, gutter-position: a
       @include span(4 last)
     .grid__item--footer-sitemap
       @include span(8 last)
+
+  +for-tablet-landscape-up
+    .grid__item--contact-left
+      @include span(8)
+    .grid__item--contact-right
+      @include span(4 last)
