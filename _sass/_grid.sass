@@ -84,10 +84,12 @@ $susy: ( columns: 12, gutters: 1, math: fluid, output: float, gutter-position: a
   +for-tablet-portrait-up
     .grid__item--footer-1
       @include span(6)
-    .grid__item--footer-2
+    .grid__item--footer-2, .grid__item--footer-sitemap
       @include span(6 last)
   +for-desktop-up
     .grid__item--footer-1, .grid__item--footer-2
       @include span(4)
     .grid__item--footer-3
       @include span(4 last)
+    .grid__item--footer-sitemap
+      @include span(8 last)
