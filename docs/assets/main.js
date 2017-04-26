@@ -1,7 +1,7 @@
 $(function() {
-  let nav_visible = true;
-  let nav_element = $(".nav__menu");
-  let nav_toggle = $(".nav__toggle");
+  var nav_visible = true;
+  var nav_element = $(".nav__menu");
+  var nav_toggle = $(".nav__toggle");
 
   nav_toggle.click(function() {
     toggleMenu();
