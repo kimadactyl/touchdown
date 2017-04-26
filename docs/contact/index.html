@@ -141,6 +141,7 @@
 <script>
   function initMap() {
     var waterside = {lat: 53.4251605, lng: -2.3215189};
+    var pinImage = new google.maps.MarkerImage('/touchdown/assets/img/map-marker.png');
     var styles = [
       {
         "elementType": "geometry",
@@ -290,7 +291,8 @@
     });
     var marker = new google.maps.Marker({
       position: waterside,
-      map: map
+      map: map,
+      icon: pinImage
     });
   }
 </script>
