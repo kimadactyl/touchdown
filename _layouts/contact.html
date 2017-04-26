@@ -2,41 +2,42 @@
 layout: default
 ---
 
-<div class="decorate">
-  <div class="row">
-    <div class="grid">
-      <div class="grid__item grid__item--contact-left">
-        <h2>Send us a message</h2>
-        <form action="https://getsimpleform.com/messages?form_api_token=f1191b02e067771e68c83de0ce111d87" method="post">
-          <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
-          <input type='hidden' name='redirect_to' value='<the complete return url e.g. http://touchdowndance.co.uk/contact/>' />
-          <!-- all your input fields here.... -->
-          <input type='text' name='name' id='name' class="form__full" placeholder="Name">
-          <input type='tel' name='tel' id='tel' class="form__half" placeholder="Telephone">
-          <input type='email' name='email' id='email' class="form__half" placeholder="Email">
-          <textarea name='message' id='message' class="form__full" rows="8" placeholder="Message"></textarea>
-          <input type='submit' class="btn" value='Send message' />
-        </form>
+<div class="row">
+  <div class="grid">
+    <div class="grid__item grid__item--contact-left">
+      <h2>Send us a message</h2>
+      <form action="https://getsimpleform.com/messages?form_api_token=f1191b02e067771e68c83de0ce111d87" method="post">
+        <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
+        <input type='hidden' name='redirect_to' value='<the complete return url e.g. http://touchdowndance.co.uk/contact/>' />
+        <!-- all your input fields here.... -->
+        <input type='text' name='name' id='name' class="form__full" placeholder="Name">
+        <input type='tel' name='tel' id='tel' class="form__half" placeholder="Telephone">
+        <input type='email' name='email' id='email' class="form__half" placeholder="Email">
+        <textarea name='message' id='message' class="form__full" rows="8" placeholder="Message"></textarea>
+        <input type='submit' class="btn" value='Send message' />
+      </form>
 
-      </div>
-      <div itemscope itemtype="http://schema.org/Organization" class="grid__item grid__item--contact-right">
-        <h2>Our details</h2>
-        <div class="small-skip"><abbr title="Telephone">T:</abbr> <a itemprop="telephone" href="tel:+44-161-912-5760">0161 912 5760</a></div>
-        <div><abbr title="Email">E:</abbr> <a itemprop="email" href="mailto:info@touchdowndance.co.uk">info@touchdowndance.co.uk</a></div>
-        <br><br>
-        <div itemprop="name">Touchdown Dance</div>
-        <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-            <span itemprop="streetAddress">
-              Waterside Arts Centre,<br>
-              1 Waterside,<br>
-            </span>
-            <span itemprop="addressRegion">Sale</span>,
-            <span itemprop="postalCode">M33 7ZF</span>
-        </div>
+    </div>
+    <div itemscope itemtype="http://schema.org/Organization" class="grid__item grid__item--contact-right">
+      <h2>Our details</h2>
+      <div class="small-skip"><abbr title="Telephone">T:</abbr> <a itemprop="telephone" href="tel:+44-161-912-5760">0161 912 5760</a></div>
+      <div><abbr title="Email">E:</abbr> <a itemprop="email" href="mailto:info@touchdowndance.co.uk">info@touchdowndance.co.uk</a></div>
+      <br><br>
+      <div itemprop="name">Touchdown Dance</div>
+      <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+          <span itemprop="streetAddress">
+            Waterside Arts Centre,<br>
+            1 Waterside,<br>
+          </span>
+          <span itemprop="addressRegion">Sale</span>,
+          <span itemprop="postalCode">M33 7ZF</span>
       </div>
     </div>
   </div>
 </div>
+
+<div class="decorate"></div>
+
 <div class="row t-2">
   {% include donate.html %}
 </div>

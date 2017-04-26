@@ -4,6 +4,8 @@ $susy: ( columns: 12, gutters: 1, math: fluid, output: float, gutter-position: a
   @include container
   @include layout($susy)
   margin-bottom: 1rem
+  &[itemtype="http://schema.org/Organization"]
+    margin-bottom: 0
   &__item
     img
       max-width: 100%
