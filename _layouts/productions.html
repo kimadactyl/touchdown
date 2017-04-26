@@ -25,7 +25,7 @@ layout: default
     {% for dancer in site.data.dancers %}
       <div class="grid__item">
         <h3>{{ dancer.name }}</h3>
-        <img src="{{ site.baseurl }}/assets/dancers/{{ dancer.image }}" alt="Photo of {{ dancer.name }}">
+        <img class="dancer" src="{{ site.baseurl }}/assets/dancers/{{ dancer.image }}" alt="Photo of {{ dancer.name }}">
         <p>{{ dancer.description }}</p>
       </div>
     {% endfor %}
