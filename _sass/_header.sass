@@ -16,7 +16,9 @@
   h1
     text-transform: uppercase
     margin-bottom: 3rem
-  p
+  h1, p
+    +for-tablet-portrait-up
+      max-width: 70%
     +for-tablet-landscape-up
       max-width: 60%
     +for-desktop-up
