@@ -56,7 +56,7 @@ layout: default
           <a href="{{ production.url | relative_url }}"><img src="{{ site.baseurl }}/assets{{ production.permalink }}1.jpg" alt="Photo of {{ production.title }}"></a>
         {% endif %}
         <p>{{ production.description }}</p>
-        <a class="btn btn--alt" href="{{ production.url | relative_url }}">More about {{ production.title }}</a>
+        <a class="btn btn--alt" href="{{ production.url | relative_url }}" aria-label="Read more about {{ production.title }}">Discover more</a>
       </div>
     {% endfor %}
   </div>

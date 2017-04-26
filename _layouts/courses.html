@@ -76,7 +76,7 @@ layout: default
          {{ course.content }}
        {% endif %}
        {% if course.full_page %}
-          <a class="btn btn--alt" href="{{ course.url | relative_url }}">Discover more</a>
+          <a class="btn btn--alt" href="{{ course.url | relative_url }}" aria-label="Read more about {{ course.title }}">Discover more</a>
        {% endif %}
       </div>
     {% endfor %}
