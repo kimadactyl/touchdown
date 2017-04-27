@@ -31,7 +31,7 @@
     <header role="banner">
   <div class="row--thin">
     <nav class="nav" role="nav">
-      <a class="nav__toggle" role="button" aria-label="Show menu">
+      <div class="nav__toggle" role="button" aria-label="Show menu">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 34.36 35.17">
           <rect width="34.36" height="5.48" rx="0.66" ry="0.66"/>
           <rect y="14.84" width="34.36" height="5.48" rx="0.66" ry="0.66"/>
@@ -40,7 +40,10 @@
         <div class="nav__label">
           Menu
         </div>
-      </a>
+        <div class="contrast__wrapper">
+          <a href="#" class="contrast__toggle" aria-label="High contrast mode">HC</a>
+        </div>
+      </div>
 
       <ul class="list-reset nav__menu" aria-hidden="true">
         <li><a href="/touchdown/">Home</a></li>
@@ -50,9 +53,8 @@
 <li><a href="/touchdown/who-we-are/">Who we are</a></li>
 <li class="nav__item--last"><a href="/touchdown/contact/">Contact us</a></li>
 
+        <li class="nav__item--contrast"><a href="#" class="contrast__toggle" aria-label="HC">HC</a></li>
       </ul>
-
-      <a href="#" id="high-contrast">High Contrast</a>
     </nav>
   </div>
 </header>

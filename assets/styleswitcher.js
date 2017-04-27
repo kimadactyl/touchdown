@@ -3,7 +3,7 @@ $(function() {
   // HTML IDs of our elements
   var highContrast = $('#style-high')[0];
   var normalContrast =  $('#style-main')[0];
-  var contrastToggle = $('#high-contrast');
+  var contrastToggle = $('.contrast__toggle');
 
   // Track contrast state across pages
   var contrastEnabled = localStorage.getItem('highContrast') || false;
@@ -33,12 +33,10 @@ $(function() {
       enableMain();
     }
     localStorage.setItem('highContrast', contrastEnabled);
-    console.log(contrastEnabled);
   });
 
   // Check when the page is loaded if we need to enable high contrast
   if(contrastEnabled == "true") {
-    console.log(contrastEnabled);
     enableHigh();
   }
 

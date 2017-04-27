@@ -3,9 +3,10 @@ $(function() {
   var nav_element = $(".nav__menu");
   var nav_toggle = $(".nav__toggle");
 
-  nav_toggle.click(function() {
-    toggleMenu();
-  })
+  $('.contrast__toggle').click(function(e) {
+    // Stop the contrast switcher messing with the nav toggle
+    e.stopPropagation();
+  });
 
   function toggleMenu() {
     nav_visible = !nav_visible
@@ -18,6 +19,11 @@ $(function() {
                  .removeClass("nav--visible")
                  .attr("aria-hidden","true");
     }
-  }
+  };
+
+  nav_toggle.click(function() {
+    toggleMenu();
+  });
+
   toggleMenu();
 });
