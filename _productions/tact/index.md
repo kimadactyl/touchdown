@@ -8,7 +8,7 @@ images:
   - 1.jpg
   - 2.jpg
   - 3.jpg
-header: true
+header: tact
 performances:
   - title: Royal Festival Hall residency
     description: Summer 2002

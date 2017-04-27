@@ -7,7 +7,7 @@ images:
   - 1.jpg
   - 2.jpg
   - 3.jpg
-header: true
+header: sense-8
 performances:
   - title: "Art Council England 'Capture' series"
     description: London, November 2001

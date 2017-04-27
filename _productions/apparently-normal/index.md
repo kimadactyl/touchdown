@@ -12,12 +12,14 @@ performances:
     description: Greenroom, Manchester. An excerpt of new work, "look into the light" with Jamus Wood, Robert Andersen and Katy Dymoke.
   - title: Contact Improvisation festival
     description: Bluecoat Theatre, Liverpool
-header: true
+header: apparently-normal
 images:
   - 1.jpg
 ---
 
-Apparently Normal is a new dance work inspired by the real life day-to-day life of visually impaired people, contrasting the clash of difference in normality between them and the sighted. Consisting of thematically related sections, six dancers look at the black humour of injustice, from the mild to the outrageous, from the ironic to the disdainful.
+Apparently Normal is a new dance work inspired by the real life day-to-day life of visually impaired people, contrasting the clash of difference in normality between them and the sighted.
+
+Consisting of thematically related sections, six dancers look at the black humour of injustice, from the mild to the outrageous, from the ironic to the disdainful.
 
 Day to day life for people living with visual impairment can be precarious, not only due to the obvious hazards, but also with the pressure to be fast, mobile and technology dependent in today's hyper-mobile society. When a visual impaired person moves through society dependent on visual information, how can they stay in touch and so comply to the 'norm'? Or can they indicate to us the need to slow down, revealing how in the 'normal' non-stop fast moving sighted culture, life is actually passing us by.
 
