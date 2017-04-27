@@ -32,7 +32,8 @@
   <div class="row--thin">
     <nav class="nav" role="nav">
       <div class="nav__toggle" role="button" aria-label="Show menu">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 34.36 35.17">
+        <!-- Hack to stop a FOUC on the toggle icon -->
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 34.36 35.17" style="max-width: 2rem">
           <rect width="34.36" height="5.48" rx="0.66" ry="0.66"/>
           <rect y="14.84" width="34.36" height="5.48" rx="0.66" ry="0.66"/>
           <rect y="29.69" width="34.36" height="5.48" rx="0.66" ry="0.66"/>
@@ -53,7 +54,7 @@
 <li><a href="/touchdown/who-we-are/">Who we are</a></li>
 <li class="nav__item--last"><a href="/touchdown/contact/">Contact us</a></li>
 
-        <li class="nav__item--contrast"><a href="#" class="contrast__toggle" aria-label="HC">HC</a></li>
+        <li class="nav__item--contrast"><a href="#" class="contrast__toggle" aria-label="High contrast mode">HC</a></li>
       </ul>
     </nav>
   </div>
@@ -115,7 +116,7 @@
       <p>We run events for communities aimed at people with visual impairments but open to all. Our events help boost confidence and self-esteem, improve development and mobility, and enable people to be creative.</p>
 
       <!-- TODO: clean up -->
-      <p>Many of these events have been at <a href="https://www.watersideartscentre.co.uk/">Waterside Arts Centre</a>, who we have worked with since 2005 delivering hundreds of events, workshops, partnerships, demonstrations and presentations.</p>
+      <p>Many of these events have been at <a class="normal-underline" href="https://www.watersideartscentre.co.uk/">Waterside Arts Centre</a>, who we have worked with since 2005 delivering hundreds of events, workshops, partnerships, demonstrations and presentations.</p>
 
       <h3>Professional training</h3>
 
@@ -129,7 +130,7 @@
 
       <p>We have worked with a large range of organisations across the world such as <abbr title="Royal National Institute for the Blind">RNIB</abbr>, British Council, Sadler’s Wells, Children in Need, Manchester City Council and Henshaw’s Society for the Blind.</p>
 
-      <p>To find out more about how we can work with your organisation, have a look at our <a href="/touchdown/starting-points/">starting points</a>.</p>
+      <p>To find out more about how we can work with your organisation, have a look at our <a class="normal-underline"  href="/touchdown/starting-points/">starting points</a>.</p>
     </div>
 
     <div class="grid__item grid__item--small-right">
