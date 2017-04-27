@@ -5,6 +5,7 @@ start: 2005
 finish: 2008
 permalink: /productions/closer/
 style: closer
+header: true
 images:
   - 1.jpg
   - 2.jpg
