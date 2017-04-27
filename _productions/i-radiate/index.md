@@ -10,6 +10,8 @@ performances:
   - title: Romiley Forum
   - title: Unity Theatre Liverpool
   - title: Thameside Courtyard Theatre
+images:
+  - 1.jpg
 ---
 
 An improvised performance involving three community and three professional dancers, with projection of drawings by Nick Fry (Undercover design) and sound scores by Scott Smith of Image Lab (US)
