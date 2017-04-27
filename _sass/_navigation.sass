@@ -47,7 +47,6 @@
     a
       border-bottom: none
       display: inline-block
-      width: 100%
 
   &--hidden
     display: none
@@ -94,5 +93,12 @@
 a:hover .nav__label
   color: $background
 
-.contrast__wrapper
-  float: right
+.contrast
+  &__wrapper
+    float: right
+  &__toggle
+    svg
+      width: 1.75rem
+      fill: $primary-alt
+    border-bottom: none !important
+    margin-top: 0.25rem
