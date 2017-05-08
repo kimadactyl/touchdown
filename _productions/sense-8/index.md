@@ -23,7 +23,7 @@ Multiple layers of perception emerge through the moving cameras, the editing and
 <iframe src="https://player.vimeo.com/video/148021443" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 [Sense8 (UK 2001)](https://vimeo.com/148021443) on [Vimeo](https://vimeo.com). 10 minutes (PAL).
 
-## Credits
+### Credits
 
 Film funded by a Capture Award from the Arts Council of England. Co-produced by Katy Dymoke and Katrina McPherson (Goat productions) for Touchdown Dance. A Major Capture Dance Film Award 2000. Filmed at Yorkshire Dance Centre Leeds 2001.
 

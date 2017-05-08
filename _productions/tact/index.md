@@ -39,7 +39,7 @@ This was the first professional dance company production with projection and liv
  * **Video Projection**:  Katy Dymoke, Becky Edmunds and Nick Fry.
  * **Music**: Scott Smith, Jim Parris, and Barnaby O’Rorke at the Royal Festival Hall.
 
-> The bright filmic images together with the music and dancers' monologues, in which they describe colors, sunlight, smells and sound create a rich palette of shades and textures&hellip; (Dance Insider, 2002)
+> "The bright filmic images together with the music and dancers' monologues, in which they describe colors, sunlight, smells and sound create a rich palette of shades and textures&hellip;" (Dance Insider, 2002)
 
 
 <!-- A groundbreaking show from a company of 6 dancers, 3 visually impaired and 3 sighted. Touchdown Dance works with touch as an alternative for sight, as the main form of communication between dancers, integrating physical contact into the dynamic movement scores. With live music and film, the dance evolves against a backdrop of sounds and imagery to create a multi-sensory dance performance. -->

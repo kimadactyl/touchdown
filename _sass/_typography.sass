@@ -8,6 +8,9 @@ body
 h1, h2
   font-family: $font-bold
 
+strong
+  font-family: $font-bold
+
 // Large titles
 h1
   font-size: 2rem
@@ -36,18 +39,21 @@ h3, .h3
   p, li
     font-family: $font-regular
   blockquote
-    margin-left: 1em
-    margin-right: 1em
+    margin-left: 0em
+    margin-right: 0em
   h4
     margin-bottom: 0
     + p
       margin-top: 0
-  &__main > p:first-child
-    font-family: $font-demi
-    // Should follow h3 rules
-    +for-desktop-up
-      font-size: 1.5rem
-
+  &__main
+    > p:first-child
+      font-family: $font-demi
+      // Should follow h3 rules
+      +for-desktop-up
+        font-size: 1.5rem
+    ul
+      padding-left: 1em
+      margin-left: 0
 
 .h3--nbm
   margin-bottom: 0

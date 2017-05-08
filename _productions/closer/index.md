@@ -32,7 +32,7 @@ performances:
   - title: Unity Theatre Liverpool
 ---
 
-> Using senses other than eyes, six dancers take flight aiming to bring the separate Closer. Liberated from taboos of touch, they share a world where contact is not cautioned, but the start of freedom and trust. Where hearing, smell and the ripple of breath energize the space between bodies with a rich sensory perception, crossing the distorted distances between our world and us.
+Liberated from taboos of touch, they share a world where contact is not cautioned, but the start of freedom and trust. Where hearing, smell and the ripple of breath energize the space between bodies with a rich sensory perception, crossing the distorted distances between our world and us.
 
 Closer was devised by the company with Julyen Hamilton and Angus Balbernie. Closer is a natural continuation from TACT. We work with clear spatial relationships and with the underlying themes of “closeness”, distance and relating across space. We explore ways to sustain awareness of each other without sight as the predominant connection. We explore relationships in duets, trios and full company dances, using layers of movement qualities and atmosphere, with sound, video projection and light, with coloured and textured tactile costumes defining the transition from one score to the next.
 
@@ -46,4 +46,4 @@ The performance at Glasgow CCA with Dance House, involved 7 other professional d
 
 Closer was audio described.
 
-> Thanks for an enjoyable evening, I particularly liked the staging of some of the personal experience sections and the trio of men had a strong dynamic and a delightful sense of comedy. Well done. (Deb Ashby, DiGM)
+> "Thanks for an enjoyable evening, I particularly liked the staging of some of the personal experience sections and the trio of men had a strong dynamic and a delightful sense of comedy. Well done." (Deb Ashby, DiGM)
