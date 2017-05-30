@@ -26,19 +26,12 @@ _Flyer "A debate on the use of touch to communicated and develop relationships i
 ## Classes / Talks
 
  * Wed 14 Aug 4-6pm, RFH Hothouse. **Dance and Touch Communication**. A class for dance professionals exploring methods and techniques for teaching integrated groups.
-
-_Flyer "Workshop in contact improvisation with company members for dancers and practitioners interested in a taster session in the touch based methods and processes of the company. Please come in comfortable clothing, e.g. leggings and T shirt._
-
  * Fri 16 Aug 3.15-4pm, RFH Ballroom. **Meet the Artists**. A chance to meet members of the company and chat to them about their newly created work for the Ballroom.
  * Fri 16 Aug 3-4.30pm, RFH Level 5. **Voice Box**. A presentation by The Place and Touchdown Dance on performance in integrated settings.
-
-_Flier "A presentation by The Place (Christopher Thomson) and Touchdown Dance (Katy Dymoke and Holly Thomas) on performance making in integrated settings. Specifically projects involving visually impaired dancers and the opportunities for ongoing training in the field._
 
 ## Performance
 
  * Fri 16 Aug, 1pm and 5.30pm, RFH Ballroom. **Touchdown Dance** perform their new work created especially for the Ballroom.
-
- _Flier "devised by Julyen Hamilton from Barcelona, a renowned dancer and choreographer in the filed of improvised dance making._
 
 ## Exhibition
 

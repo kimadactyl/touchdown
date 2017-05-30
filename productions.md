@@ -1,7 +1,7 @@
 ---
 layout: productions
 title: Our Productions
-description: As a dance company we tour our innovative productions all over the world. We work with with both disability rights organisations and mainstream dance theatre groups.
+description: As a dance company we tour our innovative productions worldwide. We work with both disability rights organisations and mainstream dance theatre groups.
 permalink: /productions/
 layout: productions
 ---

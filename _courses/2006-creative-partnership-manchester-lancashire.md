@@ -4,7 +4,7 @@ start: 2006
 finish: 2010
 ---
 
-We were a core partner delivering dance in the curriculum, supporting teaching staff to deliver movement-based session,s particularly in challenging class contexts.
+We were a core partner delivering dance in the curriculum, supporting teaching staff to deliver movement-based sessions, particularly in challenging class contexts.
 
 > "The children were more attentive – using creativity to explore 'what learning is like'"
 
