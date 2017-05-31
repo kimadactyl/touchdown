@@ -19,6 +19,7 @@ description: "Touchdown Dance brings together people of all ages and abilities i
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://touchdowndance.co.uk" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: DanceTouchdown
+google_analytics: UA-100242881-1
 sass:
   style: compressed
 # Build settings
